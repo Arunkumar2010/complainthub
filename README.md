@@ -146,4 +146,6 @@ This project was built for academic purposes
 
 ---
 
-<p align="center">Built with ❤️ in 2026</p>
+<div align="center">
+Made with ❤️ by Arunkumar S 
+</div>
