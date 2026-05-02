@@ -146,4 +146,4 @@ This project was built for academic purposes
 
 ---
 
-<p align="center">Built with ❤️ for SEPM 2026</p>
+<p align="center">Built with ❤️ in 2026</p>
