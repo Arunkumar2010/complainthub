@@ -1,0 +1,1051 @@
+{
+  "version": "3.0",
+  "lastUpdated": "2026-05-02",
+  "college": "ComplaintHub College",
+  "qa": [
+    {
+      "id": 1,
+      "keywords": ["submit", "complaint", "file", "raise"],
+      "question": "How do I submit a complaint?",
+      "answer": "To submit a complaint:\n1. Click 'Submit' in the navbar\n2. Enter a clear complaint title\n3. Select the right category\n4. Choose priority level\n5. Write detailed description (min 20 chars)\n6. Click Submit Complaint button\nYou will get a complaint ID instantly! 📋"
+    },
+    {
+      "id": 2,
+      "keywords": ["track", "status", "where", "my complaint", "check", "progress"],
+      "question": "How to track complaint status?",
+      "answer": "Go to 'Complaints Filed & Process' page from the navbar. You can see all your complaints with current status:\n🟡 Pending = waiting for admin\n🔵 In Progress = being worked on\n✅ Resolved = issue fixed\nYou can also filter by status or category!"
+    },
+    {
+      "id": 3,
+      "keywords": ["wifi", "internet", "network", "connection", "slow", "not working"],
+      "question": "WiFi not working?",
+      "answer": "For WiFi issues:\n1. Submit complaint under 'WiFi & Internet' category\n2. Set priority to 'High' if completely down\n3. Mention your block and room number\n4. IT Department staff will be assigned\n⏰ High priority = resolved within 3 days"
+    },
+    {
+      "id": 4,
+      "keywords": ["mess", "food", "quality", "bad", "taste", "kitchen", "meal"],
+      "question": "Mess food quality issue?",
+      "answer": "For mess/food complaints:\n1. Submit under 'Mess & Food Quality'\n2. Mention specific issue (bad taste, stale, unhygienic)\n3. Add date and meal time\n4. Mess Department will handle it\n⏰ Usually resolved within 7 days"
+    },
+    {
+      "id": 5,
+      "keywords": ["billing", "fee", "charge", "extra", "wrong", "payment", "money"],
+      "question": "Billing or fee issue?",
+      "answer": "For billing problems:\n1. Submit under 'Billing & Fees'\n2. Set priority to 'Urgent' if large amount\n3. Mention exact amount and transaction date\n4. Keep payment receipts ready\n5. Accounts Department will verify\n⏰ Urgent = resolved within 24 hours"
+    },
+    {
+      "id": 6,
+      "keywords": ["maintenance", "repair", "broken", "leaking", "tap", "pipe", "furniture", "door", "window"],
+      "question": "Maintenance or repair needed?",
+      "answer": "For maintenance issues:\n1. Submit under 'Maintenance & Repairs'\n2. Describe exact problem and location\n3. Add room number and block\n4. Maintenance Department will handle\n⏰ Medium priority = resolved in 7 days"
+    },
+    {
+      "id": 7,
+      "keywords": ["security", "safety", "gate", "unlock", "guard", "cctv", "emergency"],
+      "question": "Security or safety concern?",
+      "answer": "For security issues:\n1. Submit under 'Security & Safety'\n2. Describe the threat or concern clearly\n3. Set priority to 'Urgent' for immediate threats (e.g., gate unlocked at night)\n4. Security Department will investigate\n⏰ Urgent = resolved within 24 hours"
+    },
+    {
+      "id": 8,
+      "keywords": ["academic", "faculty", "marks", "exam", "lab", "library", "books"],
+      "question": "Academic or faculty issue?",
+      "answer": "For academic complaints:\n1. Submit under 'Academic Issues'\n2. Mention the course, faculty name, or lab/library problem\n3. Academic Department will review\n⏰ Usually resolved within 7 days"
+    },
+    {
+      "id": 9,
+      "keywords": ["hostel", "room", "roommate", "laundry", "hot water"],
+      "question": "Hostel or room issue?",
+      "answer": "For hostel-specific problems:\n1. Submit under 'Hostel Problems'\n2. Mention your room and block number\n3. Hostel Administration will handle it\n⏰ Usually resolved within 7 days"
+    },
+    {
+      "id": 21,
+      "keywords": ["water", "supply", "no water", "water problem", "tap", "block"],
+      "question": "No water supply in hostel?",
+      "answer": "For water supply issues:\n1. Submit under 'Maintenance & Repairs'\n2. Set priority to URGENT if entire block affected\n3. Mention block name and room numbers affected\n4. Mention since when (date and time)\n5. Maintenance team will respond within 24 hours\n\n🚰 No water = URGENT priority always!"
+    },
+    {
+      "id": 22,
+      "keywords": ["electricity", "power", "light", "fan", "ac", "bulb", "switch", "power cut"],
+      "question": "Electricity or power issue in room?",
+      "answer": "For electrical issues:\n1. Submit under 'Maintenance & Repairs'\n2. Set priority to URGENT for power failure\n3. Describe exact issue (flickering, no power, broken switch)\n4. Add room number and block\n⚡ Never try to fix electrical issues yourself — safety first!\n🔴 Power failure = URGENT"
+    },
+    {
+      "id": 23,
+      "keywords": ["hot water", "geyser", "heater", "cold water", "shower", "bath"],
+      "question": "No hot water in hostel?",
+      "answer": "For hot water issues:\n1. Submit under 'Hostel Problems'\n2. Set priority to HIGH in winter\n3. Mention which floor or block is affected\n4. Note time when hot water is usually available\n\n🛁 Hot water timing: Usually 6AM to 8AM\nIf geyser broken → Maintenance team handles it"
+    },
+    {
+      "id": 24,
+      "keywords": ["laundry", "washing", "clothes", "washing machine", "dryer"],
+      "question": "Laundry facility not working?",
+      "answer": "For laundry issues:\n1. Submit under 'Hostel Problems'\n2. Describe what is broken (machine, dryer, facility closed)\n3. Set priority MEDIUM\n4. Hostel Administration handles laundry facilities\n\n🧺 Laundry rooms usually open: Mon/Wed/Fri\nIf machine broken average fix time = 7 days"
+    },
+    {
+      "id": 25,
+      "keywords": ["lift", "elevator", "stuck", "not working", "broken"],
+      "question": "Lift or elevator not working?",
+      "answer": "For lift issues:\n1. Submit under 'Maintenance & Repairs'\n2. Set priority HIGH — affects elderly and disabled students\n3. Mention which building and floor\n4. If someone is stuck → call warden IMMEDIATELY\n\n🔴 Someone stuck in lift = EMERGENCY\n📞 Call warden directly, do not wait for complaint!"
+    },
+    {
+      "id": 26,
+      "keywords": ["library", "book", "books", "not available", "borrow", "return"],
+      "question": "Library book not available?",
+      "answer": "For library issues:\n1. Submit under 'Academic Issues'\n2. Mention exact book title and author\n3. Describe issue (not available, damaged, missing)\n4. Academic Department handles library\n\n📚 Library timing: Usually 9AM to 8PM\nFor urgent academic need mention in description!"
+    },
+    {
+      "id": 27,
+      "keywords": ["computer", "lab", "pc", "system", "printer", "projector"],
+      "question": "Computer lab or equipment issue?",
+      "answer": "For computer lab issues:\n1. Submit under 'Academic Issues'\n2. Mention specific lab name/number\n3. Describe problem (PC not working, slow, printer broken)\n4. IT Department + Academic Department handle this\n\n💻 For urgent practical exams → set HIGH priority\nMention subject and exam date in description!"
+    },
+    {
+      "id": 28,
+      "keywords": ["rooftop", "roof", "terrace", "ceiling", "leak", "rain", "seepage"],
+      "question": "Roof leaking or ceiling damage?",
+      "answer": "For roof or ceiling issues:\n1. Submit under 'Maintenance & Repairs'\n2. Set priority HIGH if active leaking\n3. Take photos if possible and describe in detail\n4. Mention room number and exact location of leak\n\n🌧 Roof leaks during rain = HIGH priority\nActive water damage = report immediately!"
+    },
+    {
+      "id": 29,
+      "keywords": ["noise", "disturbance", "loud", "music", "party", "neighbor", "sleep"],
+      "question": "Noise disturbance in hostel?",
+      "answer": "For noise complaints:\n1. Submit under 'Hostel Problems'\n2. Mention time of disturbance\n3. Mention which room or floor causing issue\n4. Set priority MEDIUM or HIGH if affecting studies\n\n🔇 Hostel quiet hours: Usually 10PM to 6AM\nRepeat offenders are handled by Hostel Warden"
+    },
+    {
+      "id": 30,
+      "keywords": ["cockroach", "pest", "rat", "mosquito", "insects", "bugs", "dirty"],
+      "question": "Pest or hygiene issue in hostel?",
+      "answer": "For pest or hygiene issues:\n1. Submit under 'Hostel Problems' or 'Mess & Food Quality'\n2. Set priority HIGH\n3. Describe exact location and type of pest\n4. Hostel Administration arranges pest control\n\n🐛 Pest in kitchen/mess = HIGH priority (health risk)\n🐜 Regular pest control done monthly — report if missed"
+    },
+    {
+      "id": 31,
+      "keywords": ["scholarship", "stipend", "financial aid", "fee waiver", "concession"],
+      "question": "Scholarship or fee concession issue?",
+      "answer": "For scholarship issues:\n1. Submit under 'Billing & Fees'\n2. Set priority URGENT if payment deadline near\n3. Mention scholarship name and amount\n4. Attach details of issue in description\n5. Accounts Department + Academic Dept handles\n\n💰 Keep scholarship documents ready\n⏰ File before semester deadline!"
+    },
+    {
+      "id": 32,
+      "keywords": ["attendance", "proxy", "absent", "marked absent", "wrong attendance"],
+      "question": "Wrong attendance marked?",
+      "answer": "For attendance issues:\n1. Submit under 'Academic Issues'\n2. Set priority HIGH (affects exams)\n3. Mention subject, date and faculty name\n4. Academic Department will verify and correct\n\n📋 Keep your ID card and entry records ready\n⚠️ Act fast — attendance correction has deadlines!"
+    },
+    {
+      "id": 33,
+      "keywords": ["result", "marks", "grade", "wrong marks", "revaluation", "paper"],
+      "question": "Issue with exam results or marks?",
+      "answer": "For marks or result issues:\n1. Submit under 'Academic Issues'\n2. Mention subject name, exam date, roll number\n3. Describe discrepancy (wrong marks, missing marks)\n4. Set priority HIGH\n5. Academic Department handles revaluation\n\n📊 Revaluation requests have deadlines\nSubmit complaint within 7 days of result!"
+    },
+    {
+      "id": 34,
+      "keywords": ["faculty", "teacher", "professor", "absent", "not coming", "no class"],
+      "question": "Faculty not taking class?",
+      "answer": "For faculty attendance issues:\n1. Submit under 'Academic Issues'\n2. Mention faculty name, subject, dates missed\n3. Set priority HIGH if happening repeatedly\n4. Academic Department will investigate\n\n📚 One missed class → wait and retry\n3+ missed classes → submit complaint immediately!"
+    },
+    {
+      "id": 35,
+      "keywords": ["ragging", "bullying", "harassment", "threat", "abuse", "senior"],
+      "question": "Ragging or harassment complaint?",
+      "answer": "For ragging or harassment:\n1. Submit under 'Security & Safety'\n2. Set priority URGENT immediately\n3. Describe incident clearly (date, time, location)\n4. Mention names if known\n\n🚨 This is VERY SERIOUS — act immediately!\n📞 Also contact:\n- Hostel Warden directly\n- College Anti-Ragging Committee\n- National helpline: 1800-180-5522\nYour identity will be protected!"
+    },
+    {
+      "id": 36,
+      "keywords": ["theft", "stolen", "missing", "lost", "robbed", "burglar"],
+      "question": "Theft or missing items in hostel?",
+      "answer": "For theft cases:\n1. Submit under 'Security & Safety'\n2. Set priority URGENT\n3. Describe what was stolen, when discovered\n4. Mention your room and block\n5. Security Department + Warden will investigate\n\n🚔 For serious theft also file police complaint\n📹 CCTV footage will be reviewed"
+    },
+    {
+      "id": 37,
+      "keywords": ["medical", "sick", "hospital", "health", "ambulance", "doctor", "injury"],
+      "question": "Medical emergency or health issue?",
+      "answer": "For medical emergencies:\n🚨 CALL WARDEN IMMEDIATELY — do not wait!\n\nFor health-related complaints:\n1. Submit under 'Security & Safety'\n2. Set priority URGENT\n3. Mention nature of illness and location\n\n🏥 College hospital/clinic timing: 24/7 for emergencies\n📞 Ambulance: Call warden or college security"
+    },
+    {
+      "id": 38,
+      "keywords": ["parking", "vehicle", "bike", "car", "parking spot", "towing"],
+      "question": "Parking issue on campus?",
+      "answer": "For parking issues:\n1. Submit under 'Security & Safety'\n2. Describe issue (no space, unauthorized vehicle, towing)\n3. Mention location (parking area, block)\n4. Security Department handles parking\n\n🚗 Designated parking areas must be followed\n⚠️ Vehicles without permits may be towed"
+    },
+    {
+      "id": 39,
+      "keywords": ["canteen", "cafeteria", "snacks", "vending", "food stall", "tuck shop"],
+      "question": "Canteen or cafeteria issue?",
+      "answer": "For canteen complaints:\n1. Submit under 'Mess & Food Quality'\n2. Describe issue (overcharging, bad food, closed)\n3. Mention which canteen or stall\n4. Mess Department handles all food facilities\n\n☕ Canteen timing: Usually 8AM to 8PM\nFor overcharging keep your bill as proof!"
+    },
+    {
+      "id": 40,
+      "keywords": ["sports", "gym", "ground", "equipment", "field", "court", "pool"],
+      "question": "Sports facility issue?",
+      "answer": "For sports or gym complaints:\n1. Submit under 'Maintenance & Repairs'\n2. Describe what equipment is broken\n3. Mention which ground or facility\n4. Set priority MEDIUM\n\n🏋️ Gym timing: Usually 5AM to 9PM\n⚽ Sports ground booking through Sports Department\nBroken equipment = safety risk = HIGH priority!"
+    },
+    {
+      "id": 41,
+      "keywords": ["hostel fee", "hostel charges", "room rent", "hostel payment"],
+      "question": "Hostel fee or charges issue?",
+      "answer": "For hostel fee issues:\n1. Submit under 'Billing & Fees'\n2. Set priority HIGH if overcharged\n3. Mention amount discrepancy and semester\n4. Keep original fee receipt ready\n5. Accounts Department will verify\n\n💳 Hostel fee payment deadline: Every semester start\n📄 Always get official receipt after payment!"
+    },
+    {
+      "id": 42,
+      "keywords": ["transfer", "room change", "room transfer", "swap room", "new room"],
+      "question": "Want to change hostel room?",
+      "answer": "For room transfer requests:\n1. Submit under 'Hostel Problems'\n2. Mention current room and reason for transfer\n3. Mention preferred block if any\n4. Set priority based on urgency\n5. Hostel Administration handles transfers\n\n🏠 Room transfers depend on availability\n⏰ Apply at semester start for best chance!"
+    },
+    {
+      "id": 43,
+      "keywords": ["guest", "visitor", "parent", "family", "overnight", "permission"],
+      "question": "Guest or visitor permission?",
+      "answer": "For guest visit permissions:\n1. Submit under 'Hostel Problems'\n2. Mention visitor name, relation, dates\n3. Guest rooms need advance booking\n4. Hostel Administration approves visitors\n\n👨👩👦 Parents can visit: 9AM to 6PM (check hostel rules)\n🛏 Overnight guests need special permission\n⏰ Apply at least 2 days in advance!"
+    },
+    {
+      "id": 44,
+      "keywords": ["cctv", "camera", "surveillance", "broken camera", "no camera"],
+      "question": "CCTV camera not working?",
+      "answer": "For CCTV issues:\n1. Submit under 'Security & Safety'\n2. Set priority HIGH (security risk)\n3. Mention exact location of broken camera\n4. Security Department handles CCTV maintenance\n\n📹 Working CCTV is important for hostel safety\nBroken camera in sensitive areas = HIGH priority!"
+    },
+    {
+      "id": 45,
+      "keywords": ["notice board", "notice", "announcement", "information", "display"],
+      "question": "Notice board or announcement issue?",
+      "answer": "For notice or announcement issues:\n1. Submit under 'Academic Issues' or 'Hostel Problems'\n2. Describe what information is missing or wrong\n3. Set priority based on urgency\n4. Administration will update\n\n📢 Important notices also sent by email\nCheck college website for latest announcements!"
+    },
+    {
+      "id": 46,
+      "keywords": ["internet speed", "slow internet", "broadband", "data", "bandwidth"],
+      "question": "Internet speed very slow?",
+      "answer": "For slow internet:\n1. Submit under 'WiFi & Internet'\n2. Mention your block and room number\n3. Mention time when speed is slow\n4. Mention approximate speed if you can test it\n5. IT Department will investigate\n\n📶 Normal speed should be 10+ Mbps\nTest at: speedtest.net\nPeak hours (7PM-11PM) naturally slower"
+    },
+    {
+      "id": 47,
+      "keywords": ["projector", "smart board", "classroom", "ac not working", "class room"],
+      "question": "Classroom facilities not working?",
+      "answer": "For classroom issues:\n1. Submit under 'Academic Issues'\n2. Mention classroom number and building\n3. Describe what is not working\n4. Set priority HIGH if affecting current exams\n\n🏫 Classroom issues reported by faculty too\nFor immediate help during class → inform faculty!"
+    },
+    {
+      "id": 48,
+      "keywords": ["duplicate", "same complaint", "already submitted", "submitted before"],
+      "question": "Already submitted this complaint before?",
+      "answer": "If you submitted same complaint before:\n1. Check My Complaints first — it may already be in progress\n2. If previous complaint closed without proper resolution → submit new one\n3. Reference previous complaint ID in new description\n\n🔍 How to check: My Complaints → search by keyword\nAvoid duplicate complaints — it slows down processing!"
+    },
+    {
+      "id": 49,
+      "keywords": ["urgent", "emergency", "immediate", "right now", "asap", "serious"],
+      "question": "Have an urgent emergency?",
+      "answer": "For urgent emergencies:\n\n🚨 Medical → Call warden immediately\n🔥 Fire → Fire exit + call security\n⚡ Electrical danger → Leave area + call maintenance\n🔒 Security threat → Call security immediately\n\nFor ComplaintHub: Set priority URGENT\n📞 Also contact warden directly for real emergencies\nDo not only rely on complaint system for emergencies!"
+    },
+    {
+      "id": 50,
+      "keywords": ["feedback", "suggestion", "improve", "idea", "recommend"],
+      "question": "Want to give feedback or suggestions?",
+      "answer": "We love feedback! 😊\n\nTo submit suggestions:\n1. Use Submit page\n2. Category: Other\n3. Priority: Low\n4. Describe your idea or suggestion clearly\n\n💡 Good suggestions are reviewed by admin monthly\nYour input helps improve ComplaintHub for everyone!\n\nYou can also use Help page Contact form directly!"
+    },
+    {
+      "id": 51,
+      "keywords": ["logout", "sign out", "log out", "exit", "session"],
+      "question": "How to logout?",
+      "answer": "To logout from ComplaintHub:\n1. Look for logout icon (→) in top right navbar\n2. Click it to sign out immediately\n3. You will be redirected to login page\n\n🔐 Always logout on shared computers!\nYour session is cleared automatically on logout\nLogin again anytime with your email and password"
+    },
+    {
+      "id": 52,
+      "keywords": ["notification", "notify", "email alert", "sms", "informed"],
+      "question": "How will I be notified about updates?",
+      "answer": "You can check updates by:\n1. Going to My Complaints page anytime\n2. Status changes show immediately\n3. Resolution message appears when resolved\n\n🔔 For notification settings:\nGo to Profile → Notifications tab\nToggle email and SMS notifications on\n\n📧 Resolution emails sent to your registered email"
+    },
+    {
+      "id": 53,
+      "keywords": ["complaint id", "id number", "reference", "ticket", "tracking number"],
+      "question": "Where is my complaint ID?",
+      "answer": "Your complaint ID is shown:\n1. In My Complaints page → each card shows ID\n2. Format: #CH12345 (top right of each card)\n3. In View Details modal\n\n📋 Always note your complaint ID!\nShare this ID when contacting support for faster help\nMatty can look up your complaints too — just ask me!"
+    },
+    {
+      "id": 54,
+      "keywords": ["printing", "print", "xerox", "photocopy", "scanner"],
+      "question": "Printing or photocopying facility issue?",
+      "answer": "For printing facility issues:\n1. Submit under 'Academic Issues'\n2. Mention which printing center or department\n3. Describe issue (broken, out of paper, not working)\n4. Set priority based on urgency\n\n🖨 Department printing rooms usually have facility\nFor urgent printing before submission → HIGH priority!"
+    },
+    {
+      "id": 55,
+      "keywords": ["cleanliness", "cleaning", "dirty", "garbage", "waste", "dustbin", "sweeping", "mopping"],
+      "question": "Cleanliness issue in hostel or college?",
+      "answer": "For cleanliness issues:\n1. Submit under 'Hostel Problems' (hostel areas)\n2. Submit under 'Maintenance & Repairs' (college areas)\n3. Describe location specifically\n4. Set priority HIGH for health hazard\n\n🧹 Regular cleaning should happen daily\nDirty common areas = report immediately\n⚠️ Unhygienic mess kitchen = HIGH priority health risk!"
+    },
+    {
+      "id": 56,
+      "keywords": ["stray", "dog", "cat", "animal", "stray animal", "bite"],
+      "question": "Stray animal issue on campus?",
+      "answer": "For stray animal issues:\n1. Submit under 'Security & Safety'\n2. Set priority HIGH if animal is aggressive\n3. Mention exact location on campus\n4. Security team will handle animal control\n\n🐕 For animal bite → Go to medical room IMMEDIATELY\n⚠️ Do not try to handle aggressive animals yourself!"
+    },
+    {
+      "id": 57,
+      "keywords": ["address proof", "bonafide", "certificate", "document", "no objection"],
+      "question": "Need certificate or document from college?",
+      "answer": "For document requests:\n1. Submit under 'Academic Issues'\n2. Mention exactly which document needed\n3. Mention purpose (visa, bank, exam form)\n4. Set priority based on deadline\n\n📄 Common documents:\n- Bonafide certificate: 3-5 days\n- No objection certificate: 2-3 days\n- Address proof: 1-2 days\n⏰ Apply well before deadline!"
+    },
+    {
+      "id": 58,
+      "keywords": ["id card", "student id", "lost id", "new id", "identity card"],
+      "question": "Lost or damaged student ID card?",
+      "answer": "For ID card issues:\n1. Submit under 'Academic Issues'\n2. Describe issue (lost, damaged, expired)\n3. Mention if you need emergency access\n4. Administration will process new card\n\n💳 New ID card takes: 3-5 working days\n📋 For lost ID → file written complaint first\n⚠️ Without ID access to labs and library may be restricted!"
+    },
+    {
+      "id": 59,
+      "keywords": ["hostel rules", "rules", "regulations", "policy", "violation", "discipline"],
+      "question": "Question about hostel rules?",
+      "answer": "About hostel rules:\n\n📋 Common hostel rules:\n- Gate closes: 10PM (check your hostel rules)\n- Quiet hours: 10PM to 6AM\n- No cooking in rooms\n- No loud music after 10PM\n- Visitor timing: 9AM to 6PM\n- Alcohol and smoking strictly prohibited\n\nFor rule violation complaints:\nSubmit under 'Hostel Problems'\nSet priority HIGH for serious violations"
+    },
+    {
+      "id": 60,
+      "keywords": ["fees payment", "online payment", "payment failed", "transaction", "receipt"],
+      "question": "Fee payment problem?",
+      "answer": "For payment issues:\n1. Submit under 'Billing & Fees'\n2. Set priority URGENT if deadline is near\n3. Mention transaction ID, amount, date\n4. Keep payment screenshot as proof\n5. Accounts Department will verify\n\n💳 If payment deducted but not credited:\n→ Share bank statement + transaction ID\n⏰ Payment issues resolved within 24-48 hours normally"
+    },
+    {
+      "id": 61,
+      "keywords": ["staff assigned", "who is assigned", "my staff", "which staff", "assigned staff"],
+      "question": "Who is assigned to my complaint?",
+      "answer": "To find who is handling your complaint:\n1. Go to My Complaints page\n2. Find your complaint card\n3. Look for 'Assigned to' field\n4. It shows staff name and department\n\n👤 Not assigned yet = still with admin\n⚡ In Progress = staff is working on it\nI can also check this for you — just tell me your complaint title!"
+    },
+    {
+      "id": 62,
+      "keywords": ["how many", "count", "total", "number of complaints", "my total"],
+      "question": "How many complaints have I submitted?",
+      "answer": "To see your complaint count:\n1. Go to My Complaints page\n2. Top shows 'Showing X of Y complaints'\n3. Filter by status to count by category\n\n📊 I can tell you your exact numbers!\nJust ask me: 'how many complaints do I have?'\nand I will check the database for you 😊"
+    },
+    {
+      "id": 63,
+      "keywords": ["close complaint", "withdraw", "cancel complaint", "not needed", "issue solved"],
+      "question": "Want to close or withdraw a complaint?",
+      "answer": "To close a complaint:\n1. You cannot close it yourself directly\n2. Add a note in a new complaint:\n   'Complaint #ID resolved on my own, please close'\n3. Contact admin via Help page\n4. Admin will mark it as closed\n\n✅ Resolved by staff = automatic close\n📧 For urgent withdrawal → contact admin directly"
+    },
+    {
+      "id": 64,
+      "keywords": ["reopen", "reopen complaint", "not satisfied", "same issue again", "issue came back"],
+      "question": "Issue not properly resolved?",
+      "answer": "If your complaint was resolved but issue persists:\n1. Submit a NEW complaint\n2. In description mention:\n   'Follow-up on complaint #OLD_ID'\n   'Issue resolved on DATE but problem recurred'\n3. Set same or higher priority\n4. Admin will prioritize follow-up cases\n\n🔄 Repeat complaints get faster attention\nDo not stay silent if issue comes back!"
+    },
+    {
+      "id": 65,
+      "keywords": ["complain about staff", "staff rude", "staff not helpful", "bad staff", "staff behavior"],
+      "question": "Want to complain about a staff member?",
+      "answer": "To complain about staff behavior:\n1. Submit under 'Other'\n2. Set priority HIGH\n3. Describe incident clearly with date and time\n4. Mention staff name and department\n5. Admin will review and take action\n\n⚠️ Be factual and specific in your complaint\n🔒 Your complaint will be handled confidentially\nAdmin reviews staff complaints with high priority"
+    },
+    {
+      "id": 66,
+      "keywords": ["view details", "full details", "complaint details", "more info"],
+      "question": "How to see full complaint details?",
+      "answer": "To see full complaint details:\n1. Go to My Complaints page\n2. Find the complaint card\n3. Click 'View Details' button at bottom of card\n4. Modal opens showing:\n   - Full description\n   - Assigned staff details\n   - Timeline of updates\n   - Resolution message\n   - All dates\n\n📋 Timeline shows every status change with dates!"
+    },
+    {
+      "id": 67,
+      "keywords": ["contact admin", "reach admin", "talk to admin", "admin contact", "administration"],
+      "question": "How to contact admin directly?",
+      "answer": "To contact admin:\n1. Go to Help & Support page\n2. Use Contact Us form (Subject + Message)\n3. Email: support@complainthub.com\n4. Phone: +1 (800) 123-4567\n   Monday to Friday 9AM to 6PM\n\n💬 For urgent matters use phone\n📧 Email response within 24 hours\nInclude your complaint ID for faster help!"
+    },
+    {
+      "id": 68,
+      "keywords": ["new student", "fresher", "first time", "just joined", "new here"],
+      "question": "New student, how to start?",
+      "answer": "Welcome to ComplaintHub! 🎉\n\nHere is how to get started:\n1. Create account → Sign Up → Select Student role\n2. Login with your email and password\n3. Explore your Dashboard\n4. Submit your first complaint if needed\n5. Track status in My Complaints page\n\n💡 Tips for new students:\n- Use correct category for faster resolution\n- Set right priority level\n- Give detailed description\n- Note your complaint ID always\nI am Matty — ask me anything anytime! 🤖"
+    },
+    {
+      "id": 69,
+      "keywords": ["multiple complaints", "many issues", "several problems", "more than one"],
+      "question": "Have multiple issues to report?",
+      "answer": "For multiple issues:\n✅ Submit SEPARATE complaints for each issue\nDo NOT combine multiple issues in one complaint\n\nWhy separate?\n- Each goes to right department\n- Each gets proper due date\n- Each tracked individually\n- Faster resolution\n\n📋 Example:\n- WiFi issue → 1 complaint\n- Mess food → separate complaint\n- Billing error → separate complaint\n\nThis is the most effective approach!"
+    },
+    {
+      "id": 70,
+      "keywords": ["semester", "end of semester", "vacation", "hostel during vacation", "holiday"],
+      "question": "Complaint during semester break?",
+      "answer": "For complaints during semester break:\n1. System works 24/7 — submit anytime\n2. Response time may be slower during vacations\n3. Set URGENT if needs immediate attention\n4. For hostel stay during vacation:\n   → Submit under 'Hostel Problems'\n   → Mention vacation period in description\n\n📅 Admin team available during breaks\n⏰ Urgent complaints still handled within 24 hours!"
+    },
+    {
+      "id": 71,
+      "keywords": ["good morning", "morning", "good afternoon", "afternoon", "good evening", "evening", "good night"],
+      "question": "Time-based greetings",
+      "answer": "Good day! 😊 I am Matty, your AI support assistant for ComplaintHub! I am available 24/7 to help you with any questions about complaints, hostel, academics or anything related to college life. What can I help you with today? 🤖"
+    },
+    {
+      "id": 72,
+      "keywords": ["how are you", "how do you do", "what's up", "wassup", "sup"],
+      "question": "How are you?",
+      "answer": "I am doing great, thank you for asking! 😄 Always ready to help students, staff and admin with ComplaintHub! I have helped resolve hundreds of complaints already. What can I do for you today? 🚀"
+    },
+    {
+      "id": 73,
+      "keywords": ["what time", "office hours", "working hours", "support hours", "when open", "available"],
+      "question": "What are support hours?",
+      "answer": "Support availability:\n\n🤖 Matty AI: Available 24/7 always!\n\n📞 Phone Support:\nMonday to Friday: 9AM to 6PM\nSaturday: 10AM to 4PM\nSunday: Closed\n\n📧 Email Support:\nsupport@complainthub.com\nResponse within 24 hours\n\n🏢 Admin Office:\nMonday to Friday: 9AM to 5PM\n\nFor emergencies outside hours → contact warden!"
+    },
+    {
+      "id": 74,
+      "keywords": ["forgot password", "reset password", "cannot login", "password wrong", "locked out", "access denied"],
+      "question": "Forgot password or cannot login?",
+      "answer": "If you forgot your password:\n1. Go to Profile page after login\n2. Click Security tab\n3. Enter current password + new password\n4. Save changes\n\nIf you cannot login at all:\n1. Double check your email spelling\n2. Check CAPS LOCK is off\n3. Try refreshing the page\n4. Contact admin: support@complainthub.com\n   Mention your registered email\n\n🔐 Admin can reset your password manually!"
+    },
+    {
+      "id": 75,
+      "keywords": ["create account", "new account", "register", "sign up", "join"],
+      "question": "How to create a new account?",
+      "answer": "To create an account:\n1. Go to the main page (localhost:5173)\n2. Click Create Account or Sign Up\n3. Choose your role:\n   🎓 Student = submit and track complaints\n   💼 Staff = manage assigned complaints\n   🛡 Admin = full system control\n4. Enter Full Name, Email, Password\n5. Click Create Account\n\n✅ You will be redirected to your dashboard!\n⚠️ Use your college email for best results"
+    },
+    {
+      "id": 76,
+      "keywords": ["mobile", "phone", "app", "android", "ios", "smartphone", "mobile app"],
+      "question": "Is there a mobile app?",
+      "answer": "ComplaintHub is a web application that works on all devices!\n\n📱 On mobile:\n1. Open your mobile browser (Chrome/Safari)\n2. Go to the ComplaintHub website\n3. Login normally\n4. Works just like desktop!\n\n💡 Tip: Add to home screen for app-like experience:\nChrome → Menu → Add to Home Screen\n\n🔮 Dedicated mobile app coming in future updates!"
+    },
+    {
+      "id": 77,
+      "keywords": ["browser", "chrome", "firefox", "safari", "edge", "not loading", "page error"],
+      "question": "Website not loading or browser issue?",
+      "answer": "If ComplaintHub is not loading:\n\n1. Refresh the page (Ctrl+R or F5)\n2. Clear browser cache:\n   Chrome: Ctrl+Shift+Delete\n3. Try a different browser\n4. Check your internet connection\n5. Disable browser extensions\n\n✅ Best browsers: Chrome, Firefox, Edge\n⚠️ Internet Explorer is not supported\n\nIf still not working → Submit under 'WiFi & Internet' or contact support!"
+    },
+    {
+      "id": 78,
+      "keywords": ["data privacy", "personal data", "information safe", "secure", "privacy", "confidential"],
+      "question": "Is my data safe and private?",
+      "answer": "Your data is secure in ComplaintHub:\n\n🔐 Security measures:\n- Passwords are encrypted (bcrypt hashing)\n- JWT tokens for secure authentication\n- Personal data stored in secure MongoDB database\n- Only admin can see all complaints\n- Staff see only assigned complaints\n- Students see only their own complaints\n\n🔒 Your complaints are confidential\nSensitive complaints (ragging, harassment) handled with extra privacy protection!"
+    },
+    {
+      "id": 79,
+      "keywords": ["dark mode", "theme", "color", "night mode", "appearance", "display"],
+      "question": "Can I change the theme or appearance?",
+      "answer": "Current theme options in ComplaintHub:\n\n🎨 Role-based color themes:\n- Student dashboard: Blue theme\n- Staff dashboard: Green theme  \n- Admin dashboard: Purple theme\n\n🌙 Dark mode: Not yet available\n(May be added in future updates)\n\n💡 Use your browser's dark mode extension\nfor dark appearance on any website!"
+    },
+    {
+      "id": 80,
+      "keywords": ["language", "hindi", "tamil", "telugu", "regional", "translate", "other language"],
+      "question": "Available in other languages?",
+      "answer": "ComplaintHub currently supports English only.\n\n🌐 For other languages:\n1. Use Google Translate browser extension\n2. Chrome has built-in translation feature\n3. Right click on page → Translate to [language]\n\n📝 When submitting complaints:\n- Write in English for best processing\n- You can mention local context\n  (Block B, mess timing etc)\n\n🔮 Regional language support may come in future!"
+    },
+    {
+      "id": 81,
+      "keywords": ["what is pending", "pending means", "why pending", "stuck in pending", "complaint pending"],
+      "question": "Why is complaint still Pending?",
+      "answer": "PENDING status means:\n📋 Your complaint is submitted and waiting for admin to review and assign to staff.\n\nReasons for longer pending time:\n1. High volume of complaints\n2. Weekend or holiday\n3. Admin reviewing priority order\n4. Verification needed\n\nWhat to do:\n- URGENT complaints should be assigned within hours\n- HIGH within 1 day\n- MEDIUM/LOW within 2-3 days\n\nStill pending too long?\nContact admin via Help page or ask me to check! 🔍"
+    },
+    {
+      "id": 82,
+      "keywords": ["what is in progress", "in progress means", "being processed", "working on it"],
+      "question": "What does In Progress mean?",
+      "answer": "IN PROGRESS status means:\n⚡ A staff member has been assigned and is actively working on your complaint!\n\nWhat is happening:\n1. Admin assigned it to relevant staff\n2. Staff received notification\n3. Staff is investigating or fixing issue\n4. You will get resolution soon\n\n⏰ Expected time based on priority:\n- URGENT: same day\n- HIGH: 1-2 more days\n- MEDIUM: 3-5 more days\n- LOW: up to a week\n\nI can tell you exactly who is handling it — just ask!"
+    },
+    {
+      "id": 83,
+      "keywords": ["stars", "rating", "review", "rate", "feedback on complaint", "satisfaction"],
+      "question": "Can I rate the resolution?",
+      "answer": "Complaint rating feature:\n\n⭐ Currently ComplaintHub does not have a built-in rating system.\n\nTo provide feedback on resolution:\n1. If satisfied → resolution closes naturally\n2. If not satisfied → submit follow-up complaint\n3. Use Help page Contact form for detailed feedback\n4. Email: support@complainthub.com\n\n💡 Your feedback helps improve the system!\nDetailed feedback in Contact form is most helpful 😊"
+    },
+    {
+      "id": 84,
+      "keywords": ["warden", "hostel warden", "contact warden", "who is warden"],
+      "question": "How to contact the hostel warden?",
+      "answer": "To contact hostel warden:\n\n🏠 Direct contact methods:\n1. Visit warden office during duty hours\n2. Call warden duty phone (check hostel notice board)\n3. Send email to hostel administration\n\n📋 For formal complaints:\nUse ComplaintHub → Hostel Problems category\nThis creates a record that cannot be ignored!\n\n⚠️ For emergencies → go directly to warden office\nDo not wait for complaint system in real emergencies!"
+    },
+    {
+      "id": 85,
+      "keywords": ["complaint not working", "cannot submit", "submit button", "form error", "submission failed"],
+      "question": "Cannot submit complaint — getting error?",
+      "answer": "If complaint submission is failing:\n\n1. Check all required fields are filled:\n   ✅ Complaint Title\n   ✅ Category selected\n   ✅ Priority selected\n   ✅ Description (minimum 20 characters)\n\n2. Check internet connection\n\n3. Try refreshing and submitting again\n\n4. Clear browser cache and retry\n\n5. Try different browser\n\nStill failing? Contact support:\n📧 support@complainthub.com\nMention what error message you see!"
+    },
+    {
+      "id": 86,
+      "keywords": ["filter", "search", "find", "sort", "look for", "specific complaint"],
+      "question": "How to find a specific complaint?",
+      "answer": "To find a specific complaint:\n\n🔍 Search options in My Complaints:\n1. Search bar → type keywords from title\n2. Status filter → All/Pending/In Progress/Resolved\n3. Category filter → select specific category\n\n📋 Tips:\n- Search by complaint ID: type #CH12345\n- Search by keyword: type 'wifi' or 'mess'\n- Filter by resolved to see completed ones\n\nCannot find it? Ask me! \nJust say 'find my WiFi complaint' and I will look it up! 🔍"
+    },
+    {
+      "id": 87,
+      "keywords": ["best time", "when to submit", "right time", "submit when", "fastest resolution"],
+      "question": "Best time to submit for fast resolution?",
+      "answer": "Tips for fastest complaint resolution:\n\n⏰ Best time to submit:\n- Monday to Friday mornings (9AM-11AM)\n- Admin reviews complaints at start of work day\n\n🚀 Tips for faster resolution:\n1. Set correct priority (do not set everything URGENT)\n2. Write clear detailed description\n3. Include specific location (Block B, Room 205)\n4. Include since when the issue exists\n5. Choose correct category\n\n⚡ Correct category → right staff assigned immediately!\nVague complaints take 2x longer to resolve!"
+    },
+    {
+      "id": 88,
+      "keywords": ["good description", "how to write", "description tips", "what to write", "detailed description"],
+      "question": "How to write a good complaint description?",
+      "answer": "Tips for writing effective complaint description:\n\n✅ Include these details:\n1. WHAT exactly is the problem\n2. WHERE exactly (block, floor, room number)\n3. WHEN did it start (date and time)\n4. HOW MANY people affected\n5. WHAT you already tried\n\n📝 Example of GOOD description:\n'WiFi in Block B rooms 201-215 has been completely down since March 28, 2026 morning. 15 students affected. Cannot attend online classes. Reported to floor supervisor but no action taken.'\n\n❌ Avoid:\n'WiFi not working. Please fix.' (too vague!)"
+    },
+    {
+      "id": 89,
+      "keywords": ["anonymous", "hide name", "identity hidden", "secret complaint", "without name"],
+      "question": "Can I submit complaint anonymously?",
+      "answer": "About anonymous complaints:\n\n🔒 ComplaintHub requires login to submit\nYour email is linked to complaints\n\nHowever your privacy is protected:\n- Staff see complaint but NOT your email unless admin shares\n- For sensitive complaints (ragging, harassment):\n  Mention in description: 'Please keep my identity confidential'\n  Admin will protect your identity\n\n📧 Truly anonymous complaints:\nEmail: support@complainthub.com\n(No login required for email)\n\n⚠️ Anonymous complaints may take longer to verify!"
+    },
+    {
+      "id": 90,
+      "keywords": ["staff not resolving", "staff ignoring", "no action", "nothing happening", "no response from staff"],
+      "question": "Staff not taking action on my complaint?",
+      "answer": "If staff is not taking action:\n\n1. First check due date in My Complaints\n2. If overdue → I will automatically alert admin!\n3. Contact admin directly:\n   → Help page Contact form\n   → Email: support@complainthub.com\n   → Mention complaint ID\n\n4. Submit a follow-up complaint referencing original ID\n\n📊 Admin monitors staff performance\nUnresolved complaints beyond due date are flagged automatically by Matty!\n\n🔴 I alert admin every time a complaint goes overdue!"
+    },
+    {
+      "id": 91,
+      "keywords": ["complaint history", "past complaints", "old complaints", "previous complaints", "archive"],
+      "question": "How to see old or past complaints?",
+      "answer": "To see all your complaint history:\n\n1. Go to My Complaints page\n2. All complaints shown from newest to oldest\n3. Use status filter 'Resolved' to see closed ones\n4. Use status filter 'Closed' for archived ones\n\n📅 Complaints are never deleted from your view\nYou can always reference old complaint IDs\n\n🔍 Search by old keywords to find specific ones\nI can also look up your complaint history — just ask!"
+    },
+    {
+      "id": 92,
+      "keywords": ["proof", "evidence", "photo", "attachment", "upload", "document"],
+      "question": "Can I attach photos or documents?",
+      "answer": "About attachments in complaints:\n\n📎 Currently ComplaintHub does not support file attachments directly.\n\nAlternatives:\n1. Describe the issue very clearly in description\n2. Mention you have photos available\n3. Email photos to: support@complainthub.com\n   Include your complaint ID in email subject\n4. Show photos directly to staff when they come\n\n🔮 Photo attachment feature planned for future update!\n\n💡 Tip: Google Drive link in description works as workaround!"
+    },
+    {
+      "id": 93,
+      "keywords": ["what is admin", "admin role", "admin can do", "admin responsibilities", "admin access"],
+      "question": "What can Admin do in ComplaintHub?",
+      "answer": "Admin has FULL control of ComplaintHub:\n\n🛡 Admin can:\n✅ View ALL complaints from all students\n✅ Assign complaints to specific staff members\n✅ Update complaint status (pending/in progress/resolved)\n✅ Delete complaints if needed\n✅ See total user count\n✅ View staff performance statistics\n✅ Access all profile information\n✅ Close or reopen any case\n\n📊 Admin dashboard shows:\n- Real-time complaint statistics\n- Staff workload comparison\n- Overdue complaint alerts\n- Full complaint management table\n\nMatty helps admin with smart suggestions! 🤖"
+    },
+    {
+      "id": 94,
+      "keywords": ["what is staff", "staff role", "staff can do", "staff responsibilities", "staff access"],
+      "question": "What can Staff do in ComplaintHub?",
+      "answer": "Staff has focused access in ComplaintHub:\n\n💼 Staff can:\n✅ View complaints assigned to them\n✅ Mark complaint as In Progress\n✅ Resolve complaints with resolution notes\n✅ View their own performance stats\n✅ Update their profile\n\n❌ Staff CANNOT:\n❌ Delete complaints\n❌ See all complaints (only assigned ones)\n❌ Assign complaints to others\n❌ View total user count\n\n📊 Staff dashboard shows:\n- Assigned to Me count\n- Pending Action count\n- In Progress count\n- Resolved by Me count\n\nMatty helps staff prioritize overdue tasks! 🤖"
+    },
+    {
+      "id": 95,
+      "keywords": ["what is student", "student role", "student can do", "student access", "student features"],
+      "question": "What can Students do in ComplaintHub?",
+      "answer": "Students are the primary users of ComplaintHub:\n\n🎓 Students can:\n✅ Submit complaints in any category\n✅ Track complaint status in real time\n✅ View assigned staff name\n✅ See resolution messages when resolved\n✅ Filter and search their complaints\n✅ View complaint timeline\n✅ Update their profile\n✅ Chat with Matty AI anytime\n\n📊 Student dashboard shows:\n- Total complaints submitted\n- Pending count\n- In Progress count\n- Resolved count\n\nAll your complaints in one place! 📋"
+    },
+    {
+      "id": 96,
+      "keywords": ["mess menu", "food menu", "today menu", "what is for lunch", "dinner menu", "breakfast menu"],
+      "question": "What is in today's mess menu?",
+      "answer": "I do not have access to the daily mess menu unfortunately! 😅\n\nTo check mess menu:\n1. Visit mess notice board (updated daily)\n2. Check hostel WhatsApp group\n3. Ask mess supervisor directly\n4. Check college website if menu posted online\n\nFor mess menu complaints:\n→ Submit under 'Mess & Food Quality'\n→ Mention specific menu issues\n→ Mess Department reviews feedback\n\n💡 Suggestion: Request admin to post daily menu on ComplaintHub notice board!"
+    },
+    {
+      "id": 97,
+      "keywords": ["roommate", "room partner", "sharing room", "room conflict", "room problem"],
+      "question": "Problem with roommate?",
+      "answer": "For roommate conflicts:\n\n1. First try to resolve directly (talk calmly)\n2. If unresolved:\n   → Submit under 'Hostel Problems'\n   → Set priority MEDIUM or HIGH\n   → Describe issue without personal attacks\n   → Request room transfer if needed\n\n3. For serious conflicts:\n   → Contact Hostel Warden directly\n   → Warden mediates roommate disputes\n\n📋 Tips for description:\n- Be factual, not emotional\n- Mention specific incidents with dates\n- State what resolution you want (transfer/counseling)"
+    },
+    {
+      "id": 98,
+      "keywords": ["hostel gate", "gate time", "gate closed", "gate open", "late entry", "missed gate"],
+      "question": "Hostel gate timing issue?",
+      "answer": "About hostel gate:\n\n🚪 Standard gate timing:\n- Main gate closes: 10PM (verify your hostel rules)\n- Emergency entry available through warden permission\n\nFor gate issues:\n1. Late entry permission → contact warden BEFORE gate closes\n2. Gate broken or unlocked → Submit 'Security & Safety' URGENT\n3. Unfair gate policies → Submit 'Hostel Problems'\n\n⚠️ For safety concerns about gate:\nAlways set priority URGENT!\nSecurity team responds to gate issues within hours"
+    },
+    {
+      "id": 99,
+      "keywords": ["internship", "placement", "job", "career", "interview", "campus recruitment"],
+      "question": "Internship or placement related issue?",
+      "answer": "For placement or internship issues:\n\n1. Submit under 'Academic Issues'\n2. Describe issue clearly:\n   - Placement cell not responding\n   - Interview process issue\n   - Internship documentation problem\n3. Set priority HIGH if deadline is near\n\n📋 Better alternatives:\n- Visit Placement Cell office directly\n- Email placement coordinator\n- These are time-sensitive — in-person visit faster!\n\n🎓 ComplaintHub handles formal complaints\nFor urgent placement help → go directly to placement office!"
+    },
+    {
+      "id": 100,
+      "keywords": ["100", "milestone", "century", "100th", "hundredth"],
+      "question": "100th interaction milestone",
+      "answer": "🎉 WOW! You found a hidden message! This is Matty's 100th Q&A response!\n\nThank you for using ComplaintHub! 😊\n\nDid you know?\n📊 Matty has 100+ predefined answers\n🤖 Plus Google Gemini AI for smart queries\n⚡ Most questions answered instantly offline\n\nComplaintHub was built with ❤️ for college students to make complaint management easier, faster and smarter!\n\nKeep submitting your complaints — every complaint makes college life better! 🎓"
+    },
+    {
+      "id": 101,
+      "keywords": ["gate pass", "out pass", "going home", "leave permission", "weekend leave"],
+      "question": "How to get gate pass or leave permission?",
+      "answer": "For gate pass or leave permission:\n\n1. Submit under 'Hostel Problems'\n2. Mention:\n   - Dates of leave\n   - Destination\n   - Reason for leave\n   - Parent/guardian contact\n3. Hostel Administration approves\n\n⏰ Apply at least 2 days in advance\n📋 Emergency leave → Contact warden directly\n\n👨👩👦 For parent-permitted leave:\nParent written consent may be required\nCheck your hostel leave policy!"
+    },
+    {
+      "id": 102,
+      "keywords": ["blood group", "medical record", "health record", "doctor", "clinic", "medical room"],
+      "question": "College clinic or medical room info?",
+      "answer": "About college medical facilities:\n\n🏥 Medical room services:\n- First aid available 24/7\n- Doctor visits: Check college schedule\n- Emergency: Warden calls ambulance\n\nFor medical facility complaints:\n1. Submit under 'Security & Safety'\n2. Set priority HIGH\n3. Describe what facility is missing/broken\n\n🚨 Medical emergency:\n1. Call warden immediately\n2. Contact nearest student for help\n3. Use complaint system AFTER emergency!\n\n💊 Keep basic medicines in room for minor issues"
+    },
+    {
+      "id": 103,
+      "keywords": ["wifi password", "wifi credentials", "connect wifi", "wifi login", "network password"],
+      "question": "Need WiFi password or connection help?",
+      "answer": "For WiFi connection:\n\n📶 To get WiFi password:\n1. Contact IT Department or hostel office\n2. WiFi credentials given during admission\n3. Each block may have different password\n\nFor WiFi complaints:\n1. Submit under 'WiFi & Internet'\n2. Mention: block, room, device type\n3. IT Department handles WiFi issues\n\n💡 Troubleshooting tips:\n- Forget network and reconnect\n- Restart device WiFi\n- Check if others in block affected\n- Try connecting different device\n\nStill not working → Submit complaint!"
+    },
+    {
+      "id": 104,
+      "keywords": ["vpn", "blocked website", "site blocked", "restricted", "cannot access website"],
+      "question": "Website or service blocked on college WiFi?",
+      "answer": "For blocked websites on college network:\n\n1. Submit under 'WiFi & Internet'\n2. Mention which website or service is blocked\n3. Explain why you need access (academic purpose)\n4. IT Department can whitelist specific sites\n\n📚 Common unblocked for academics:\n- Educational sites\n- Government portals\n- Research databases\n\n⚠️ Note:\nSome blocks are security policy\nEntertainment sites may stay blocked by policy\nAcademic resource blocks → high chance of getting unblocked!"
+    },
+    {
+      "id": 105,
+      "keywords": ["solar", "solar power", "power backup", "generator", "power outage", "load shedding"],
+      "question": "Power outage or backup issue?",
+      "answer": "For power outage issues:\n\n🔌 Types of power issues:\n1. Complete power failure → URGENT maintenance\n2. Generator not starting → HIGH priority\n3. Solar backup not working → HIGH priority\n4. Single room power issue → MEDIUM\n\nWhat to do:\n1. Submit under 'Maintenance & Repairs'\n2. Set URGENT for building-wide outage\n3. Mention affected area (block, floor)\n4. Mention since when\n\n⚡ Maintenance responds within 1 hour for URGENT\n💡 Keep a torch in your room for emergencies!"
+    },
+    {
+      "id": 106,
+      "keywords": ["print notes", "study material", "lecture notes", "course material", "syllabus"],
+      "question": "Study material or course notes not provided?",
+      "answer": "For course material issues:\n\n1. Submit under 'Academic Issues'\n2. Mention subject name and faculty\n3. Describe what material is missing\n4. Set priority based on exam proximity\n\n📚 Before submitting check:\n- College LMS (learning management system)\n- Department notice board\n- Ask class representative\n- Check faculty email\n\n⏰ Near exam → HIGH priority\nAcademic Department will follow up with faculty"
+    },
+    {
+      "id": 107,
+      "keywords": ["transfer certificate", "tc", "migration", "leaving college", "withdrawal"],
+      "question": "Transfer certificate or college withdrawal?",
+      "answer": "For transfer certificate or withdrawal:\n\n1. Submit under 'Academic Issues'\n2. Mention reason for TC or withdrawal\n3. Include student ID and current semester\n4. Set priority HIGH if urgent\n\n📋 TC process typically needs:\n- No dues certificate from accounts\n- Library clearance\n- Hostel clearance (if staying in hostel)\n- Department HOD signature\n\n⏰ TC processing time: Usually 7-15 working days\n🏢 Visit Academic Administration office directly for faster processing!"
+    },
+    {
+      "id": 108,
+      "keywords": ["bus", "transport", "college bus", "shuttle", "pick up", "drop", "transportation"],
+      "question": "College bus or transport issue?",
+      "answer": "For transport complaints:\n\n1. Submit under 'Other' category\n2. Describe issue:\n   - Bus late or not coming\n   - Overcrowding in bus\n   - Wrong route\n   - Driver behavior\n3. Mention bus route number and time\n4. Set priority based on frequency\n\n🚌 Regular bus issues → MEDIUM priority\nBus not coming at all → HIGH priority\n\n📞 For immediate transport need:\nContact transport department directly\nComplaint system is for formal recording"
+    },
+    {
+      "id": 109,
+      "keywords": ["wifi speed test", "internet speed", "mbps", "kbps", "check speed", "test internet"],
+      "question": "How to check my internet speed?",
+      "answer": "To check your internet speed:\n\n1. Open browser (while connected to college WiFi)\n2. Go to: speedtest.net or fast.com\n3. Click GO or Start\n4. Note down: Download speed, Upload speed, Ping\n\n📶 Expected speeds on college WiFi:\n- Minimum: 5 Mbps for basic browsing\n- Good: 25+ Mbps for HD video\n- Excellent: 50+ Mbps for multiple devices\n\nIf speed below 5 Mbps:\n→ Submit complaint under 'WiFi & Internet'\n→ Include speed test screenshot details in description!"
+    },
+    {
+      "id": 110,
+      "keywords": ["timetable", "schedule", "class schedule", "exam schedule", "hall ticket"],
+      "question": "Timetable or exam schedule issue?",
+      "answer": "For timetable or schedule issues:\n\n1. Submit under 'Academic Issues'\n2. Describe specific issue:\n   - Timetable clash (two classes same time)\n   - Exam schedule conflict\n   - Hall ticket not received\n   - Wrong exam center assigned\n3. Set priority HIGH if exam is soon\n\n⏰ Exam-related complaints → urgent processing\n\n📋 For hall ticket issues:\n- Submit complaint immediately\n- Also visit exam section office directly\n- Bring admission documents\n\n🏢 Exam Controller office handles exam complaints!"
+    },
+    {
+      "id": 111,
+      "keywords": ["fire", "smoke", "fire alarm", "fire extinguisher", "fire safety", "fire exit"],
+      "question": "Fire safety issue or fire emergency?",
+      "answer": "🚨 FIRE EMERGENCY: Call security IMMEDIATELY!\nDo NOT use ComplaintHub in active fire emergency!\n\n📞 Emergency steps:\n1. Alert everyone nearby\n2. Use nearest fire exit\n3. Call security/warden\n4. Do NOT use elevator\n\nFor fire safety complaints:\n1. Submit under 'Security & Safety'\n2. Set URGENT priority\n3. Mention:\n   - Missing/expired fire extinguisher\n   - Blocked fire exit\n   - Broken fire alarm\n\n🔴 Fire safety issues = always URGENT priority!\nAnnual fire safety inspection should be done!"
+    },
+    {
+      "id": 112,
+      "keywords": ["dustbin", "waste bin", "garbage collection", "waste disposal", "recycling"],
+      "question": "Waste disposal or garbage issue?",
+      "answer": "For waste disposal problems:\n\n1. Submit under 'Maintenance & Repairs'\n2. Describe issue:\n   - Dustbin overflowing\n   - Garbage not collected\n   - Bad smell from waste area\n   - No dustbin in common area\n3. Set priority HIGH for health hazard\n4. Mention exact location\n\n🗑 Garbage collection schedule:\nUsually daily in hostel corridors\nWeekly deep cleaning of common areas\n\n⚠️ Overflowing garbage near mess = URGENT health risk!"
+    },
+    {
+      "id": 113,
+      "keywords": ["flood", "waterlogging", "drainage", "blocked drain", "sewage", "overflow"],
+      "question": "Drainage or flooding issue?",
+      "answer": "For drainage or flooding:\n\n1. Submit under 'Maintenance & Repairs'\n2. Set priority URGENT if blocking movement\n3. Describe:\n   - Location (block, floor, area)\n   - How severe (ankle deep, corridor flooded)\n   - Since when\n4. Maintenance team responds fast to flooding\n\n🌊 Urgent scenarios:\n- Bathroom drain blocked → MEDIUM\n- Floor corridor flooded → HIGH\n- Ground floor flooding during rain → URGENT\n\n📸 Describe severity clearly in complaint!\nFlooding can damage property and cause accidents"
+    },
+    {
+      "id": 114,
+      "keywords": ["locker", "storage", "storage room", "luggage", "safe storage"],
+      "question": "Locker or storage facility issue?",
+      "answer": "For locker or storage issues:\n\n1. Submit under 'Hostel Problems'\n2. Describe issue:\n   - Locker broken or not opening\n   - No locker assigned\n   - Storage room locked\n   - Items missing from storage\n3. Set priority based on urgency\n\n🔐 For locker break-in or theft:\n→ Submit under 'Security & Safety' as URGENT\n→ Also report to warden and security immediately\n\n📦 Luggage storage during semester break:\nContact Hostel Administration 1 week in advance!"
+    },
+    {
+      "id": 115,
+      "keywords": ["projector remote", "remote control", "tv", "television", "common room tv", "entertainment"],
+      "question": "Common room TV or entertainment facility?",
+      "answer": "For common room facility issues:\n\n1. Submit under 'Hostel Problems'\n2. Describe which facility is broken:\n   - TV not working\n   - Remote missing\n   - Cable/DTH not working\n   - Room furniture broken\n3. Set priority MEDIUM\n\n📺 Common room timing:\nUsually available until 11PM (check hostel rules)\n\nFor more serious facility requests:\nMention in description and suggest to admin\n💡 Suggestions for new facilities are reviewed monthly!"
+    },
+    {
+      "id": 116,
+      "keywords": ["water purifier", "ro water", "drinking water", "water quality", "water filter"],
+      "question": "Drinking water or purifier issue?",
+      "answer": "For drinking water issues:\n\n1. Submit under 'Maintenance & Repairs'\n2. Set priority HIGH (health concern)\n3. Describe issue:\n   - RO/purifier not working\n   - Dirty or colored water\n   - Bad taste or smell\n   - Water cooler broken\n4. Mention block and floor location\n\n💧 Clean drinking water is a right!\nMaintenance team prioritizes water quality issues\n\n⚠️ If water appears contaminated:\n→ Set URGENT priority\n→ Alert others to avoid drinking\n→ Request bottled water until fixed!"
+    },
+    {
+      "id": 117,
+      "keywords": ["ironing", "iron box", "clothes iron", "steam press", "press clothes"],
+      "question": "Ironing facility not available?",
+      "answer": "For ironing facility issues:\n\n1. Submit under 'Hostel Problems'\n2. Describe issue:\n   - Iron box not working\n   - No ironing board\n   - Ironing room locked\n3. Set priority MEDIUM\n\n👔 Ironing room usually available:\n8AM to 10PM (check your hostel schedule)\n\n💡 Quick fix while waiting:\n- Ask floor mates if they have personal iron\n- Use hotel/pressing shop nearby for formal events\n\nHostel Administration typically fixes within 3-5 days!"
+    },
+    {
+      "id": 118,
+      "keywords": ["cycling", "bicycle", "cycle stand", "cycle parking", "bike stand"],
+      "question": "Bicycle parking or cycle stand issue?",
+      "answer": "For bicycle/cycle related issues:\n\n1. Submit under 'Maintenance & Repairs'\n2. Describe issue:\n   - Cycle stand full or broken\n   - Cycle stolen from stand\n   - No covered parking\n   - Stand location inconvenient\n3. Set priority based on urgency\n\n🚲 For bicycle theft:\n→ Submit under 'Security & Safety' as URGENT\n→ Report to security and local police\n→ Share cycle description and registration number\n\nSecurity will check CCTV footage!"
+    },
+    {
+      "id": 119,
+      "keywords": ["examination hall", "exam center", "exam room", "seating arrangement", "exam issue"],
+      "question": "Examination hall or seating issue?",
+      "answer": "For examination hall issues:\n\n1. Submit under 'Academic Issues'\n2. Set priority URGENT if exam is today or tomorrow\n3. Describe issue:\n   - Wrong seat number assigned\n   - Hall conditions (AC not working, no fans)\n   - Wrong exam center\n   - Accessibility issue\n\n⏰ Before exam day:\n- Check seating 1 day before\n- Reach 30 minutes early\n\n🏢 For urgent exam issues:\nContact Exam Controller office DIRECTLY\nDo not only rely on complaint system for same-day exam issues!"
+    },
+    {
+      "id": 120,
+      "keywords": ["vegetarian", "vegan", "dietary", "food allergy", "special diet", "non vegetarian", "halal"],
+      "question": "Special dietary requirements or food allergy?",
+      "answer": "For dietary requirement issues:\n\n1. Submit under 'Mess & Food Quality'\n2. Describe your dietary needs:\n   - Vegetarian/vegan options not available\n   - Food allergy (mention specific allergy)\n   - Religious dietary requirements\n   - Medical dietary restriction\n3. Set priority HIGH (health concern)\n\n🥗 Mess Department must accommodate:\n- Vegetarian options (usually available)\n- Allergy concerns (serious health issue)\n\n💊 For severe food allergies:\nMention medical certificate in description\nAct fast — food allergies are health emergencies!"
+    },
+    {
+      "id": 121,
+      "keywords": ["photovoltaic", "solar panel", "renewable energy", "green energy", "environment"],
+      "question": "Environment or sustainability issue on campus?",
+      "answer": "For environment-related complaints:\n\n1. Submit under 'Other' category\n2. Describe environmental concern:\n   - Excessive waste not being segregated\n   - Water being wasted\n   - Trees being cut without permission\n   - Pollution on campus\n3. Set priority MEDIUM\n\n🌱 ComplaintHub encourages green campus!\nEnvironment complaints are taken seriously by admin\n\n💡 You can also suggest:\n- Solar panel installation\n- Water harvesting\n- Recycling programs\nSuggestions reviewed monthly by admin team!"
+    },
+    {
+      "id": 122,
+      "keywords": ["smart matty", "how smart", "what can matty do", "matty features", "ai features"],
+      "question": "How smart is Matty AI?",
+      "answer": "Here is what makes Matty smart! 🧠\n\n⚡ Instant offline answers (0ms):\n- 120+ pre-programmed Q&A pairs\n- Covers all complaint categories\n- Hostel, mess, WiFi, academic and more\n\n🤖 AI-powered smart answers:\n- Powered by Google Gemini AI\n- Reads YOUR real complaint data\n- Gives personalized responses\n\n📊 Role-based intelligence:\n- Students: complaint status and tracking\n- Staff: overdue task priority alerts\n- Admin: smart staff assignment suggestions\n\n🔄 Hybrid system:\n- Simple questions → instant offline\n- Data questions → Gemini AI\n- API fails → offline fallback\n\nMatty gets smarter as more Q&A are added! 🚀"
+    },
+    {
+      "id": 123,
+      "keywords": ["escalate", "higher authority", "principal", "management", "top level"],
+      "question": "How to escalate complaint to higher authority?",
+      "answer": "To escalate a complaint:\n\n1. First try normal complaint process\n2. If not resolved within due date:\n   → Admin is automatically alerted by Matty\n   → Follow up via Help page Contact form\n\n3. For serious escalation:\n   → Submit new complaint mentioning old ID\n   → Subject: 'Escalation Request for #CH12345'\n   → Admin routes to senior management\n\n🏢 Escalation chain:\nStaff → Admin → Department Head → Principal\n\n⚠️ Escalate only if:\n- Due date passed with no action\n- Issue is critical (safety, health)\n- Same issue recurring multiple times"
+    },
+    {
+      "id": 124,
+      "keywords": ["group complaint", "many students", "collective complaint", "all students", "everyone complaining"],
+      "question": "Can many students submit same complaint?",
+      "answer": "For complaints affecting many students:\n\n✅ Option 1: Each student submits individually\n- More complaints = more priority for admin\n- Shows scale of the problem\n\n✅ Option 2: Class representative submits one\n- In description mention: '50+ students affected'\n- Include names or roll numbers if possible\n\n📋 Group complaints get HIGHER priority!\nMention in description:\n'This affects [number] students in [location]'\n\n💪 Collective complaints are resolved faster!\nAdmin pays more attention to widespread issues!"
+    },
+    {
+      "id": 125,
+      "keywords": ["suggestion box", "suggestion", "improve college", "make better", "idea for college"],
+      "question": "Want to suggest improvements to college?",
+      "answer": "We love feedback! 😊\n\nTo submit suggestions:\n1. Use Submit page\n2. Category: Other\n3. Priority: Low\n4. Describe your idea or suggestion clearly\n\n💡 Good suggestions are reviewed by admin monthly\nYour input helps improve ComplaintHub for everyone!\n\nYou can also use Help page Contact form directly!"
+    },
+    {
+      "id": 126,
+      "keywords": ["project", "sepm", "college project", "academic project", "built by", "who made this"],
+      "question": "Who built ComplaintHub?",
+      "answer": "ComplaintHub was built as a SEPM (Software Engineering and Project Management) academic project! 🎓\n\n🛠 Tech Stack:\n- Frontend: React + Vite + Tailwind CSS\n- Backend: Node.js + Express\n- Database: MongoDB\n- AI: Google Gemini (Matty chatbot)\n\n✨ Features built:\n- 3-role system (Student, Staff, Admin)\n- Complete complaint workflow\n- AI chatbot (that's me — Matty! 🤖)\n- Due date tracking\n- Smart staff assignment\n- Real-time statistics\n\n🚀 Built with the goal of making college complaint management smarter, faster and more transparent!"
+    },
+    {
+      "id": 127,
+      "keywords": ["api", "integration", "third party", "external system", "connect to"],
+      "question": "Does ComplaintHub integrate with other systems?",
+      "answer": "ComplaintHub integrations:\n\n✅ Currently integrated:\n- Google Gemini AI (Matty chatbot)\n- MongoDB database\n- JWT authentication\n\n🔮 Possible future integrations:\n- Email notification system\n- SMS alerts for status changes\n- College ERP system\n- WhatsApp notifications\n- Google Calendar for due dates\n\n📧 Currently all notifications:\nCheck My Complaints page for updates\nContact support@complainthub.com for email\n\nFeature requests can be submitted under 'Other' category! 💡"
+    },
+    {
+      "id": 128,
+      "keywords": ["what is sepm", "sepm meaning", "software engineering", "project management", "agile", "scrum", "sprint"],
+      "question": "What is SEPM?",
+      "answer": "SEPM stands for Software Engineering and Project Management! 📚\n\nIn ComplaintHub context:\n\n🔧 Software Engineering:\n- React + Node.js full-stack development\n- MongoDB database design\n- REST API architecture\n- JWT authentication security\n\n📊 Project Management:\n- Sprint 1: Auth + Dashboard\n- Sprint 2: Complaints + Admin + AI\n- Bug tracking and resolution\n- Test cases documentation\n\n📋 Documentation includes:\n- Functional test cases (Sprint 1 & 2)\n- Bug reports with root cause analysis\n- System architecture documentation\n\nComplaintHub follows agile methodology! 🚀"
+    },
+    {
+      "id": 129,
+      "keywords": ["repeat issue", "same problem", "happening again", "recurring", "again and again"],
+      "question": "Same problem keeps happening again?",
+      "answer": "For recurring issues:\n\n📋 How to report recurring problems:\n1. Submit NEW complaint each time issue occurs\n2. In description add:\n   'RECURRING ISSUE - Previous complaint: #ID'\n   'Same problem occurred on: [dates list]'\n3. Set priority one level HIGHER than usual\n\n🔴 Recurring = systemic problem needs permanent fix!\n\nAdmin treats recurring complaints as:\n- Infrastructure issue\n- Staff performance review trigger\n- Priority escalation\n\n💡 For recurring WiFi issues:\nMay indicate router replacement needed\nRecurring mess issues → vendor review triggered!\nKeep tracking — your reports create change! 📊"
+    },
+    {
+      "id": 130,
+      "keywords": ["best complaint", "perfect complaint", "how to write best", "effective complaint", "complaint tips"],
+      "question": "Tips for writing the most effective complaint?",
+      "answer": "🏆 Formula for perfect complaint:\n\nTITLE (clear and specific):\n❌ Bad: 'WiFi problem'\n✅ Good: 'WiFi completely down in Block B rooms 201-215'\n\nCATEGORY: Choose most relevant one\n\nPRIORITY: Be honest — do not mark everything URGENT!\n\nDESCRIPTION (include ALL of these):\n✅ What: Exact problem\n✅ Where: Block, floor, room number\n✅ When: Date and time it started\n✅ Who: How many affected\n✅ What tried: Steps already taken\n✅ Impact: How it affects you (missing classes etc)\n✅ Evidence: Mention if you have photos\n\n📊 Perfect complaints get resolved 2x faster!\nVague complaints go back and forth taking more time"
+    },
+    {
+      "id": 131,
+      "keywords": ["dashboard", "home page", "main page", "overview", "summary"],
+      "question": "What is shown on my dashboard?",
+      "answer": "Your dashboard shows a quick overview based on your role:\n\n🎓 STUDENT Dashboard:\n- Total complaints submitted\n- Pending count (yellow)\n- In Progress count (blue)\n- Resolved count (green)\n- Submit Complaint button\n- Recent activity\n\n💼 STAFF Dashboard:\n- Assigned to Me count\n- Pending Action count\n- In Progress count\n- Resolved by Me count\n- Assigned complaints table\n\n🛡 ADMIN Dashboard:\n- Total system complaints\n- Pending count\n- In Progress count\n- Resolved count\n- Total registered users\n- Full complaints management table\n\nAll numbers update in real time! 📊"
+    },
+    {
+      "id": 132,
+      "keywords": ["update profile", "change name", "change phone", "edit profile", "profile settings"],
+      "question": "How to update my profile information?",
+      "answer": "To update your profile:\n\n1. Click Profile in the top navbar\n2. You will see Profile tab open by default\n3. Edit these fields:\n   - Full Name\n   - Phone Number\n   - Department (staff/admin)\n   - Office Location (staff)\n4. Click Save Changes button\n5. Success message confirms update\n\n📧 Email cannot be changed (used for login)\n🔑 Password → Security tab\n🔔 Notifications → Preferences tab\n\n✅ All changes saved instantly to database!"
+    },
+    {
+      "id": 133,
+      "keywords": ["change email", "update email", "new email", "email wrong", "email address change"],
+      "question": "Can I change my email address?",
+      "answer": "Unfortunately email address cannot be changed in ComplaintHub.\n\nReason: Email is your unique login identifier\n\nOptions:\n1. Create a new account with correct email\n2. Contact admin to manually update:\n   → Help page Contact form\n   → Subject: Email Change Request\n   → Mention old and new email\n   → Admin can update in database\n\n⚠️ If you create new account:\n- Old complaint history will not transfer\n- Use correct email from beginning!\n\n📧 Always use your official college email!"
+    },
+    {
+      "id": 134,
+      "keywords": ["session timeout", "auto logout", "kicked out", "logged out automatically", "session expired"],
+      "question": "Getting automatically logged out?",
+      "answer": "About automatic logout:\n\n🔐 JWT token expires for security\nWhen token expires you are logged out\n\nWhy this happens:\n- Token has expiry time (usually 24 hours)\n- Inactivity for long period\n- Browser cleared cookies/storage\n\nWhat to do:\n1. Simply login again with your credentials\n2. Your data is always safe in database\n3. Nothing is lost when logged out\n\n💡 Tips to stay logged in:\n- Do not clear browser data frequently\n- Use same browser consistently\n- Keep browser tab open while working\n\n🔒 Auto logout is a security feature — protects your account!"
+    },
+    {
+      "id": 135,
+      "keywords": ["multiple devices", "different device", "phone and laptop", "login two places", "simultaneous login"],
+      "question": "Can I login from multiple devices?",
+      "answer": "Yes! You can login from multiple devices:\n\n✅ ComplaintHub supports:\n- Login from phone + laptop simultaneously\n- Different browsers on same device\n- Any modern web browser\n\n📱 Each device gets its own session token\nLogging out on one device does not affect others\n\n⚠️ Security tip:\n- Always logout from shared/public computers\n- Do not share login credentials\n- Use private/incognito mode on shared devices\n\nYour data syncs across all devices in real time! 🔄"
+    },
+    {
+      "id": 136,
+      "keywords": ["notification bell", "alerts", "badge", "unread", "new notification"],
+      "question": "How do notifications work?",
+      "answer": "Complaint update notifications:\n\n📊 Currently ComplaintHub shows updates by:\n1. Status badge changes on complaint cards\n2. Resolution message appearing when resolved\n3. Assigned staff name appearing when assigned\n\n🔔 To get notified:\n→ Go to Profile → Notifications tab\n→ Toggle on Email notifications\n→ Updates sent to your registered email\n\n💡 Best practice:\n- Check My Complaints page daily\n- Status changes are instant in the system\n\n🔮 Push notification feature planned:\nBell icon with real-time alerts coming soon!"
+    },
+    {
+      "id": 137,
+      "keywords": ["export", "download", "pdf report", "complaint report", "print complaints"],
+      "question": "Can I download or export my complaints?",
+      "answer": "Complaint export options:\n\n📄 Currently ComplaintHub does not have built-in export\n\nWorkarounds:\n1. Browser Print:\n   → Open My Complaints page\n   → Press Ctrl+P\n   → Save as PDF\n\n2. Screenshot:\n   → Take screenshots of complaint cards\n\n3. Contact admin:\n   → Request complaint report by email\n   → Admin can export from database\n\n🔮 Export to PDF/Excel feature:\nPlanned for future update!\n\n📧 For official complaint documentation:\nContact: support@complainthub.com\nMention your student ID and date range"
+    },
+    {
+      "id": 138,
+      "keywords": ["color code", "color meaning", "badge color", "status color", "what color means"],
+      "question": "What do the different colors mean?",
+      "answer": "Color coding in ComplaintHub:\n\n📊 STATUS COLORS:\n🟡 Yellow/Amber = PENDING\n   (waiting for admin review)\n🔵 Blue = IN PROGRESS\n   (staff working on it)\n🟢 Green = RESOLVED\n   (issue fixed)\n⚫ Gray = CLOSED\n   (case archived)\n\n🎯 PRIORITY COLORS:\n🔴 Red = URGENT (24 hour deadline)\n🟠 Orange = HIGH (3 days)\n🟡 Yellow = MEDIUM (7 days)\n🟢 Green = LOW (14 days)\n\n👤 ROLE THEME COLORS:\n🔵 Blue = Student\n🟢 Green = Staff\n🟣 Purple = Admin\n\n🤖 MATTY URGENCY:\n🔴 Overdue, 🟠 Due today\n🟡 Due soon, 🟢 On track"
+    },
+    {
+      "id": 139,
+      "keywords": ["timeline", "complaint timeline", "history of complaint", "when was", "what happened when"],
+      "question": "How to see complaint timeline?",
+      "answer": "To view complaint timeline:\n\n1. Go to My Complaints page\n2. Find the complaint card\n3. Click View Details button\n4. Scroll down in modal\n5. Timeline section shows:\n\n📅 Timeline entries:\n✅ Submitted on [date]\n✅ Assigned to [staff] on [date]\n✅ Status changed to In Progress on [date]\n✅ Resolved on [date]\n\n🕐 Each action is timestamped\nComplete audit trail of complaint journey\n\n👤 Admin and Staff:\nSee full timeline of every action taken\nTimeline cannot be edited or deleted!"
+    },
+    {
+      "id": 140,
+      "keywords": ["resolution message", "resolution text", "what was done", "how resolved", "fix details"],
+      "question": "Where to see resolution details?",
+      "answer": "To see resolution details:\n\n1. Go to My Complaints page\n2. Find complaint with RESOLVED status\n3. You will see green Resolution box\n4. OR click View Details for full info\n\n📋 Resolution box shows:\n- What was done to fix the issue\n- Date of resolution\n- Staff member who resolved\n\n✅ Example resolution messages:\n'WiFi router replaced in Block B. Connection restored.'\n'Duplicate charge refunded. Check bank in 3-5 days.'\n'Plumber fixed leaking tap in Room 205.'\n\n😊 Resolution message tells you exactly what was done!\nIf not satisfied → submit follow-up complaint"
+    },
+    {
+      "id": 141,
+      "keywords": ["staff workload", "staff busy", "staff performance", "staff rating", "best staff"],
+      "question": "How is staff performance tracked?",
+      "answer": "Staff performance tracking in ComplaintHub:\n\n📊 Metrics tracked per staff member:\n- Total complaints assigned\n- Total resolved\n- Currently active (in progress)\n- Overdue complaints\n- Resolution rate percentage\n- Average workload\n\n🏆 Performance indicators:\n✅ Green = Low workload (available)\n⚠️ Yellow = Medium workload\n❌ Red = High workload (busy)\n\n🤖 Matty uses these stats to:\n→ Suggest best staff for new assignment\n→ Alert admin about overdue staff tasks\n→ Help admin balance workload fairly\n\n🛡 Admin can view full staff report\nanytime by asking Matty!"
+    },
+    {
+      "id": 142,
+      "keywords": ["deadline missed", "past due", "due date passed", "overdue complaint", "late resolution"],
+      "question": "What happens when due date is missed?",
+      "answer": "When complaint due date passes:\n\n🔴 System automatically:\n1. Marks complaint as OVERDUE\n2. Sets isOverdue flag in database\n3. Matty alerts admin immediately\n4. Complaint moves to priority queue\n\n📊 Overdue effects:\n- Admin gets warning in dashboard\n- Staff gets urgent reminder from Matty\n- Complaint flagged with red indicator\n\n⚡ Expected action after overdue:\n- Admin reviews and follows up with staff\n- Staff escalates if needs more resources\n- URGENT overdue = immediate action required\n\n📈 Overdue rate affects staff performance score\nAdmin monitors and acts on overdue complaints!"
+    },
+    {
+      "id": 143,
+      "keywords": ["assign complaint", "how assign", "admin assign", "who can assign", "assign to which staff"],
+      "question": "How does admin assign complaint to staff?",
+      "answer": "Complaint assignment process:\n\n🛡 ADMIN steps to assign:\n1. Go to Admin Dashboard (/admin)\n2. Find complaint in table\n3. Click blue Assign button (person+ icon)\n4. Assignment modal opens showing:\n   - Complaint title\n   - Staff dropdown list\n   - Each staff shows: Name, Department, Email\n5. Select appropriate staff member\n6. Click Assign button\n7. Complaint status → IN PROGRESS automatically\n\n💼 STAFF receives:\n- Complaint appears in their dashboard\n- Matty alerts staff about new assignment\n- Due date visible in Staff Dashboard\n\n🤖 Matty suggests BEST staff based on:\n- Lowest current workload\n- Highest resolution rate\n- Department matching category!"
+    },
+    {
+      "id": 144,
+      "keywords": ["unassign", "reassign", "change staff", "different staff", "wrong staff assigned"],
+      "question": "Can admin reassign complaint to different staff?",
+      "answer": "Yes! Admin can reassign complaints:\n\n🛡 To reassign:\n1. Go to Admin Dashboard\n2. Find the complaint\n3. Click Assign button again\n4. Select different staff member\n5. Click Assign\n6. New staff takes over immediately\n\n📋 When to reassign:\n- Original staff on leave\n- Wrong department assigned\n- Staff workload too high\n- Staff not responding\n- Specialist needed for complex issue\n\n⚠️ After reassignment:\n- Old staff loses complaint from their list\n- New staff sees it immediately\n- Status stays IN PROGRESS\n- Timeline records the reassignment\n\n🤖 Ask Matty: 'who is best for WiFi complaint'\nMatty will suggest based on workload data!"
+    },
+    {
+      "id": 145,
+      "keywords": ["complaint id format", "id format", "ch number", "what is ch", "complaint number"],
+      "question": "What is the complaint ID format?",
+      "answer": "Complaint ID format in ComplaintHub:\n\n📋 Format: #CH followed by numbers\nExample: #CH12363, #CH12362, #CH12361\n\nWhere to find it:\n1. My Complaints page → top right of each card\n2. View Details modal → ID field\n3. Admin/Staff dashboard table → first column\n\n💡 How to use complaint ID:\n- Reference in follow-up complaints\n- Share with admin when seeking help\n- Search by ID in complaint search bar\n- Email subject when contacting support\n\n📊 IDs are sequential:\n- Higher number = more recent complaint\n- IDs never repeat or change\n- Permanent reference for complaint history!"
+    },
+    {
+      "id": 146,
+      "keywords": ["student count", "how many users", "total students", "registered users", "user count"],
+      "question": "How many users are registered?",
+      "answer": "User registration statistics:\n\n🛡 ADMIN can see:\n→ Admin Dashboard shows 'Total Users' count\n→ Real-time count from database\n→ Matty can tell admin exact count anytime\n\n🎓 STUDENTS:\n→ Cannot see total user count\n→ Privacy protection\n\n💼 STAFF:\n→ Cannot see total user count\n\n📊 Admin breakdown available:\n- Total registered users\n- Staff count (via staff-list API)\n- Student vs Staff vs Admin ratio\n\n🤖 Admin can ask Matty:\n'How many users are registered?'\nMatty will fetch real count from database!"
+    },
+    {
+      "id": 147,
+      "keywords": ["delete account", "remove account", "deactivate", "close account", "remove my data"],
+      "question": "How to delete my account?",
+      "answer": "To delete your account:\n\n⚠️ IMPORTANT: This action cannot be undone!\n\n🎓 STUDENT/STAFF:\n1. Go to Profile page\n2. Security tab\n3. Scroll to Danger Zone section\n4. Click Delete Account button\n5. Confirm in dialog box\n6. Account deleted immediately\n\n🛡 ADMIN:\n1. Profile → System tab\n2. Danger Zone section\n3. Type DELETE to confirm\n4. Account removed permanently\n\n⚠️ Before deleting:\n- Download complaint history if needed\n- Inform admin if you are staff member\n- Ensure no pending assignments (staff)\n\n📧 Contact admin if you need help:\nsupport@complainthub.com"
+    },
+    {
+      "id": 148,
+      "keywords": ["response time", "how fast", "quick response", "fast resolution", "turnaround time"],
+      "question": "What is the expected response time?",
+      "answer": "Expected response and resolution times:\n\n⚡ INITIAL RESPONSE (complaint acknowledged):\n- URGENT: Within 2 hours\n- HIGH: Within 24 hours\n- MEDIUM: Within 2 days\n- LOW: Within 3 days\n\n🔧 FULL RESOLUTION times:\n- URGENT: 1 day (24 hours)\n- HIGH: 3 days\n- MEDIUM: 7 days\n- LOW: 14 days\n\n📊 These are TARGET times\nActual times depend on:\n- Complexity of issue\n- Parts or resources needed\n- Number of complaints in queue\n\n🤖 Matty monitors all due dates!\nIf overdue Matty alerts admin automatically\n🔴 Always use correct priority for realistic timelines!"
+    },
+    {
+      "id": 149,
+      "keywords": ["peak time", "busy time", "slow response", "when busy", "complaint rush"],
+      "question": "When is ComplaintHub busiest?",
+      "answer": "Peak complaint times in college:\n\n📅 Highest complaint volume:\n- Start of semester (fee issues, room allocation)\n- Exam periods (academic complaints)\n- Monsoon season (maintenance, leaks, flooding)\n- Festival seasons (security, noise)\n\n⏰ Daily busy hours:\n- Morning 8AM-10AM (mess complaints)\n- Evening 6PM-9PM (WiFi peak usage)\n- Night 10PM+ (hostel noise complaints)\n\n💡 Tips during peak times:\n- Be more detailed in description\n- Set correct priority\n- Expect slightly longer response times\n\n🚀 URGENT complaints always get\nfastest response regardless of peak time!"
+    },
+    {
+      "id": 150,
+      "keywords": ["system down", "website down", "maintenance mode", "server error", "500 error"],
+      "question": "ComplaintHub website is down?",
+      "answer": "If ComplaintHub is not accessible:\n\n1. Wait 5 minutes and try again\n   (may be temporary maintenance)\n\n2. Check your internet connection\n   (try opening google.com)\n\n3. Try clearing browser cache\n   Chrome: Ctrl + Shift + Delete\n\n4. Try different browser or device\n\n5. Still down? Contact admin:\n   📧 support@complainthub.com\n   📞 +1 (800) 123-4567\n\n⚠️ For URGENT complaints during downtime:\n→ Contact admin/warden directly by phone\n→ Do not wait for website to come back\n→ Submit complaint when back online for record\n\n🔧 Planned maintenance announced in advance!"
+    },
+    {
+      "id": 151,
+      "keywords": ["staff dashboard features", "staff panel", "staff tools", "staff interface", "staff view"],
+      "question": "What features does Staff Dashboard have?",
+      "answer": "Staff Dashboard features at /staff:\n\n📊 STAT CARDS (4 cards):\n- Assigned to Me\n- Pending Action\n- In Progress\n- Resolved by Me\n\n📋 ASSIGNED COMPLAINTS TABLE:\n- Complaint ID and title\n- Student email\n- Category and Meta details\n- Priority badge (colored)\n- Status badge\n- Assigned date\n- Action buttons\n\n⚡ ACTION BUTTONS per complaint:\n- In Progress button (blue)\n- Resolve button (green) → opens modal\n- Resolution text input in modal\n- NO delete button\n\n🔍 FILTERS:\n- Search by ID, title, email\n- Status filter dropdown\n\n🤖 MATTY shows:\n- Overdue alerts 🔴\n- Due today 🟠\n- Priority task list\n- Workload summary"
+    },
+    {
+      "id": 152,
+      "keywords": ["admin dashboard features", "admin panel", "admin tools", "admin interface", "admin view"],
+      "question": "What features does Admin Dashboard have?",
+      "answer": "Admin Dashboard features at /admin:\n\n📊 STAT CARDS (5 cards):\n- Total complaints\n- Pending\n- In Progress\n- Resolved\n- Total Users (live count)\n\n📋 MANAGE COMPLAINTS TABLE:\n- Complaint ID\n- Title and description preview\n- Student email\n- Category and date\n- Priority badge (colored)\n- Status badge\n- Assigned staff name\n- Action buttons\n\n⚡ ACTION BUTTONS:\n- ⚡ In Progress (blue)\n- ✅ Resolve (green)\n- 👤 Assign to Staff (indigo)\n- 🗑 Delete (red)\n\n🔍 FILTERS:\n- Search by ID, title, email\n- Status filter dropdown\n\n📊 ASSIGN MODAL:\n- Staff dropdown with workload info\n- Department info per staff\n\n🤖 MATTY features for admin:\n- Overdue alerts\n- Smart staff suggestions\n- Performance analytics"
+    },
+    {
+      "id": 153,
+      "keywords": ["resolve process", "how to resolve", "resolution steps", "staff resolve", "marking resolved"],
+      "question": "How does staff resolve a complaint?",
+      "answer": "Staff complaint resolution process:\n\n💼 Step by step:\n1. Login as staff → go to /staff\n2. Find complaint in Assigned Complaints table\n3. First click In Progress (if not already)\n4. Investigate and fix the actual issue\n5. Come back to ComplaintHub\n6. Click green Resolve button\n7. Resolution modal appears\n8. Type detailed resolution message:\n   - What was done\n   - When it was fixed\n   - Any follow-up needed\n9. Click Mark as Resolved\n10. Status changes to RESOLVED ✅\n\n📋 Good resolution message example:\n'Replaced faulty WiFi router in Block B. All rooms 201-215 now have connectivity. Tested speed at 45 Mbps. Issue fully resolved.'\n\n👤 Student sees resolution message immediately!"
+    },
+    {
+      "id": 154,
+      "keywords": ["what is jwt", "token", "authentication", "how login works", "security token"],
+      "question": "How does login security work?",
+      "answer": "ComplaintHub security system:\n\n🔐 JWT (JSON Web Token) authentication:\n\nHow it works:\n1. You login with email + password\n2. Password checked against encrypted hash\n3. If correct → server generates JWT token\n4. Token stored in your browser localStorage\n5. Every request sends token in header\n6. Server verifies token before responding\n\n🛡 Security features:\n- Passwords encrypted with bcrypt\n- Tokens expire automatically\n- Each role has different permissions\n- Invalid tokens rejected immediately\n\n✅ What this means for you:\n- Your password is NEVER stored as plain text\n- Even if database is accessed nobody sees passwords\n- Token expires = automatic security!\n\n🔒 Always logout on shared computers!"
+    },
+    {
+      "id": 155,
+      "keywords": ["category wrong", "wrong category", "change category", "submitted wrong", "category mistake"],
+      "question": "Submitted complaint with wrong category?",
+      "answer": "If you submitted with wrong category:\n\n⚠️ Complaints cannot be edited after submission\n\nOptions:\n1. Submit NEW complaint with correct category\n   - Mention in description:\n     'Resubmission of complaint #OLD_ID'\n     'Previous had wrong category'\n   - Set same priority\n\n2. Contact admin to manually update:\n   → Help page Contact form\n   → Mention complaint ID and correct category\n   → Admin can update category in database\n\n📋 To avoid wrong category:\n- WiFi/internet → WiFi & Internet\n- Food/kitchen → Mess & Food Quality\n- Broken things → Maintenance & Repairs\n- Money issues → Billing & Fees\n- Safety → Security & Safety\n- Classes/marks → Academic Issues\n- Room/hostel → Hostel Problems"
+    },
+    {
+      "id": 156,
+      "keywords": ["priority wrong", "wrong priority", "change priority", "priority mistake", "set wrong priority"],
+      "question": "Set wrong priority level?",
+      "answer": "If you set wrong priority:\n\n⚠️ Priority cannot be changed after submission\n\nOptions:\n1. Contact admin via Help page:\n   → Mention complaint ID\n   → Request priority change\n   → Explain why priority should be different\n   → Admin can update in database\n\n2. Submit new complaint with correct priority\n   (reference old complaint ID)\n\n📋 Priority guide:\n🔴 URGENT: Safety threat, medical, no water/power\n🟠 HIGH: WiFi completely down, serious food issue\n🟡 MEDIUM: Slow internet, minor repairs\n🟢 LOW: Suggestions, minor requests\n\n⚠️ Do not abuse URGENT:\nSetting everything URGENT reduces effectiveness\nSave URGENT for real emergencies only!"
+    },
+    {
+      "id": 157,
+      "keywords": ["complaint template", "sample complaint", "example complaint", "template", "how complaint looks"],
+      "question": "Can I see sample complaint templates?",
+      "answer": "Here are sample complaint templates:\n\n📡 WiFi TEMPLATE:\nTitle: WiFi completely down in Block B rooms 201-215\nCategory: WiFi & Internet\nPriority: High\nDescription: WiFi connection in Block B rooms 201 to 215 has been down since March 28, 2026 morning. 15 students affected. Cannot attend online classes. Reported to floor supervisor on March 29 but no action. Please resolve urgently.\n\n🍽 MESS TEMPLATE:\nTitle: Undercooked rice served in mess lunch\nCategory: Mess & Food Quality\nPriority: Medium\nDescription: Rice served at lunch on April 1, 2026 was undercooked and raw in center. 30+ students could not eat. This is third time this month. Please check mess kitchen quality.\n\n🔧 MAINTENANCE TEMPLATE:\nTitle: Bathroom taps leaking in Block C rooms 101-110\nCategory: Maintenance & Repairs\nPriority: Medium\nDescription: Bathroom taps in Block C rooms 101 to 110 leaking continuously since March 20, 2026. Floor stays wet causing safety hazard. Reported to maintenance March 22 but no repair done.\n\n💡 Use these as reference!"
+    },
+    {
+      "id": 158,
+      "keywords": ["how many staff", "number of staff", "staff list", "see all staff", "staff members"],
+      "question": "How many staff members are there?",
+      "answer": "Staff information:\n\n🛡 ADMIN can see:\n- Full staff list in Assign modal\n- Each staff name, department, email\n- Staff performance statistics\n- Total staff count\n\n🎓 STUDENT can see:\n- Only the staff assigned to their complaint\n- Shows in My Complaints page under complaint\n\n💼 STAFF can see:\n- Their own profile only\n- Cannot see other staff members\n\n📊 Staff are organized by department:\n- IT Department staff\n- Maintenance staff\n- Accounts staff\n- Mess Department staff\n- Security staff\n- Academic staff\n- Hostel Administration staff\n\n🤖 Admin can ask Matty:\n'Show me staff performance summary'\nMatty fetches real data instantly!"
+    },
+    {
+      "id": 159,
+      "keywords": ["what is matty", "matty meaning", "matty name", "why matty", "matty full name"],
+      "question": "What does Matty stand for?",
+      "answer": "Great question! 😊\n\n🤖 MATTY stands for:\nManagement Assistant Trained To help You!\n\nOr simply: A friendly AI assistant named Matty!\n\nMatty is:\n- Your 24/7 AI support companion\n- Trained on 130+ complaint scenarios\n- Powered by Google Gemini AI\n- Available on every page after login\n- Smart enough to read your real complaint data\n- Different personality for each role\n\n🎓 For Students: Friendly college senior\n💼 For Staff: Efficient task manager\n🛡 For Admin: Smart analytics advisor\n\nMatty was built specifically for ComplaintHub\nto make college complaint management easier! 🚀"
+    },
+    {
+      "id": 160,
+      "keywords": ["clear chat", "reset chat", "new conversation", "start over", "fresh chat"],
+      "question": "How to start a new chat with Matty?",
+      "answer": "To start fresh conversation with Matty:\n\n1. Look at Matty chat window header\n2. Click the Clear button (top right of header)\n3. Chat resets to welcome message\n4. Conversation history cleared\n5. Start asking new questions!\n\n💡 When to clear chat:\n- Starting different topic\n- Chat getting long\n- Want fresh context for new questions\n\n🔄 Clearing chat does NOT:\n- Affect your complaints in database\n- Logout your account\n- Delete any data\n\n✅ You can also just close and reopen Matty\nNew session starts fresh each time you close!"
+    },
+    {
+      "id": 161,
+      "keywords": ["typing indicator", "matty thinking", "loading", "processing", "three dots"],
+      "question": "What are the three dots in Matty chat?",
+      "answer": "The three animated dots mean:\n\n⏳ Matty is thinking and processing your question!\n\n🤖 What happens during dots:\n1. Message sent to backend server\n2. Server checks offline knowledge base first\n3. If complex question → calls Gemini AI\n4. Gemini reads your database data\n5. Generates personalized response\n6. Response sent back to chat\n\n⚡ Speed guide:\n- Simple questions (offline): <1 second\n- AI questions (Gemini): 1-3 seconds\n- Data heavy questions: 3-5 seconds\n\n💡 If dots show for very long:\n- Internet connection may be slow\n- Gemini API may be processing\n- Refresh and ask again if stuck >10 seconds\n\nDots disappearing = Matty has your answer! 🎉"
+    },
+    {
+      "id": 162,
+      "keywords": ["report bug", "found error", "system error", "bug report", "something wrong"],
+      "question": "Found a bug or error in ComplaintHub?",
+      "answer": "To report a system bug or error:\n\n1. Submit under 'Other' category\n2. Title: Start with 'BUG REPORT:'\n   Example: 'BUG REPORT: Cannot submit complaint'\n3. Set priority HIGH\n4. In description include:\n   - What you were trying to do\n   - What happened (error message)\n   - Which page it occurred on\n   - Which browser you are using\n   - Time and date of error\n\n📸 Take screenshot of error message\n\n📧 Also email: support@complainthub.com\nSubject: Bug Report - [brief description]\n\n🔧 Developer reviews bugs regularly\nYour bug report helps improve ComplaintHub!\n\n🐛 Thank you for helping us improve! 😊"
+    },
+    {
+      "id": 163,
+      "keywords": ["zoom in", "font size", "text too small", "accessibility", "visually impaired"],
+      "question": "Text too small or accessibility issues?",
+      "answer": "For accessibility or display issues:\n\n🔍 Zoom in on browser:\n- Windows: Ctrl + Plus (+)\n- Mac: Cmd + Plus (+)\n- Mobile: Pinch zoom\n\n📝 Increase browser font size:\nChrome → Settings → Appearance → Font Size\n\n🌐 Browser accessibility features:\n- Windows: High Contrast mode\n- Mac: Accessibility features in System Preferences\n\n💡 ComplaintHub is designed to be:\n- Responsive on all screen sizes\n- Works on mobile browsers\n- Clean readable fonts\n\n📱 On mobile:\n- Rotate to landscape for wider view\n- Zoom into specific sections\n\n🔮 Enhanced accessibility features\nplanned for future updates!"
+    },
+    {
+      "id": 164,
+      "keywords": ["cache", "clear cache", "old data showing", "outdated", "stale data"],
+      "question": "Old or wrong data showing on screen?",
+      "answer": "If you see outdated information:\n\n1. Refresh the page first (Ctrl+R or F5)\n\n2. Hard refresh to clear cached data:\n   Windows: Ctrl + Shift + R\n   Mac: Cmd + Shift + R\n\n3. Clear browser cache:\n   Chrome: Ctrl + Shift + Delete\n   → Select Cached images and files\n   → Click Clear data\n\n4. Logout and login again\n\n5. Try private/incognito window\n\n🔄 ComplaintHub fetches fresh data:\n- Dashboard stats: every page load\n- Complaints list: every page visit\n- Profile: on page open\n\n📊 Status changes appear instantly\nIf not refreshing → browser cache issue!"
+    },
+    {
+      "id": 165,
+      "keywords": ["internet explorer", "ie", "old browser", "browser support", "compatible browser"],
+      "question": "Which browsers does ComplaintHub support?",
+      "answer": "Browser compatibility:\n\n✅ FULLY SUPPORTED:\n- Google Chrome (recommended)\n- Mozilla Firefox\n- Microsoft Edge\n- Safari (Mac and iOS)\n- Opera\n\n⚠️ PARTIAL SUPPORT:\n- Older Chrome/Firefox versions\n- Samsung Internet browser\n\n❌ NOT SUPPORTED:\n- Internet Explorer (IE) - very old\n- Very old browser versions\n\n💡 For best experience:\n- Use latest Chrome or Firefox\n- Keep browser updated\n- Enable JavaScript\n- Allow cookies for login to work\n\n📱 Mobile browsers:\n- Chrome for Android ✅\n- Safari for iOS ✅\n- Firefox Mobile ✅"
+    },
+    {
+      "id": 166,
+      "keywords": ["rate limit", "too many requests", "api limit", "matty not responding", "error 429"],
+      "question": "Matty stopped responding suddenly?",
+      "answer": "If Matty stops responding:\n\n🔴 Common reasons:\n1. Gemini API rate limit reached\n   (free tier has request limits)\n2. Internet connection issue\n3. Server temporary overload\n\n✅ What to do:\n1. Wait 1-2 minutes and try again\n2. Ask simpler questions\n3. For general questions:\n   Matty uses offline answers (always work!)\n4. Refresh the page\n\n💡 Matty works in 2 modes:\n- Offline mode: ALWAYS works, no API needed\n- AI mode: Needs internet and API quota\n\n⚡ If AI mode fails:\nMatty automatically falls back to offline mode\nYou still get helpful answers!\n\n🤖 Matty is never completely down!"
+    },
+    {
+      "id": 167,
+      "keywords": ["database", "mongodb", "data storage", "where data stored", "backend"],
+      "question": "Where is my data stored?",
+      "answer": "About ComplaintHub data storage:\n\n🗄 Database: MongoDB\n\nWhat is stored:\n- Your account information\n- All complaints you submitted\n- Complaint status and history\n- Staff assignments\n- Resolution messages\n- Timestamps of all actions\n\n🔐 Security:\n- Password stored as encrypted hash\n- Only admin can access all data\n- Staff see only assigned complaints\n- Students see only their complaints\n\n🌐 Database hosted:\n- Secure MongoDB server\n- Regular backups\n\n📊 Your data is:\n- Permanent (not deleted automatically)\n- Accessible anytime after login\n- Protected by JWT authentication\n\n🔒 ComplaintHub takes data privacy seriously!"
+    },
+    {
+      "id": 168,
+      "keywords": ["api endpoints", "rest api", "backend routes", "api documentation", "integration guide"],
+      "question": "What API endpoints does ComplaintHub have?",
+      "answer": "ComplaintHub REST API endpoints:\n\n🔐 AUTH ROUTES:\nPOST /api/auth/register → create account\nPOST /api/auth/login → login get JWT\nGET  /api/auth/me → get my profile\nPATCH /api/auth/update → update profile\nPATCH /api/auth/password → change password\nDELETE /api/auth/delete → delete account\nGET /api/auth/users/count → total users (admin)\nGET /api/auth/staff-list → all staff members\n\n📋 COMPLAINT ROUTES:\nPOST /api/complaints → submit complaint\nGET  /api/complaints/mine → my complaints\nGET  /api/complaints/assigned → staff assigned\nGET  /api/complaints → all complaints (admin)\nGET  /api/complaints/overdue → overdue list\nGET  /api/complaints/staff-stats → performance\nPATCH /api/complaints/:id → update complaint\nDELETE /api/complaints/:id → delete (admin)\n\n🤖 SUPPORT ROUTES:\nPOST /api/support/contact → contact form\nPOST /api/support/chat → Matty AI chat\n\nAll routes require JWT Bearer token (except login/register)"
+    },
+    {
+      "id": 169,
+      "keywords": ["react", "vite", "tailwind", "node", "express", "tech stack", "built with"],
+      "question": "What technology is ComplaintHub built with?",
+      "answer": "ComplaintHub tech stack:\n\n⚛️ FRONTEND:\n- React + Vite (fast build)\n- Tailwind CSS (styling)\n- React Router (navigation)\n- Axios (API calls with JWT)\n- Context API (auth state)\n\n🖥 BACKEND:\n- Node.js + Express\n- JWT authentication\n- bcrypt (password hashing)\n- MongoDB + Mongoose\n- dotenv (environment vars)\n\n🗄 DATABASE:\n- MongoDB (NoSQL)\n- Mongoose ORM\n\n🤖 AI:\n- Google Gemini API (gemini-2.0-flash-lite)\n- Free tier (no credit card)\n- Hybrid offline + online system\n\n📊 ARCHITECTURE:\n- REST API design\n- Role-based access control\n- Protected routes\n- 3-tier: Frontend → Backend → Database\n\n🚀 All open source technologies!"
+    },
+    {
+      "id": 170,
+      "keywords": ["sprint", "sprint 1", "sprint 2", "agile", "scrum", "development phases"],
+      "question": "How was ComplaintHub developed?",
+      "answer": "ComplaintHub followed Agile methodology:\n\n📅 SPRINT 1 (Week 1):\n- Project setup and configuration\n- User authentication (login, signup, JWT)\n- Role-based routing\n- Student home dashboard\n- Protected routes\n- Basic navbar\n\n📅 SPRINT 2 (Week 2):\n- Submit complaint with validation\n- My Complaints with search and filters\n- Staff Dashboard\n- Admin Dashboard\n- Help and Support page\n- Profile pages (3 roles)\n- Matty AI chatbot integration\n- Due date tracking\n- Smart staff assignment\n- Overdue detection\n\n🐛 BUGS FIXED: 15 bugs documented\n\n✅ TEST CASES: 25+ functional test cases\n\n📋 Documentation:\n- Sprint 1: 10 test cases\n- Sprint 2: 15 test cases\n- All bugs with root cause analysis\n\n🎓 SEPM project requirements fully met!"
+    },
+    {
+      "id": 171,
+      "keywords": ["best practice staff", "staff tips", "how to be good staff", "staff advice"],
+      "question": "Best practices for staff members?",
+      "answer": "Tips for staff to excel in ComplaintHub:\n\n⚡ DAILY ROUTINE:\n1. Login every morning\n2. Ask Matty: 'what should I focus today'\n3. Handle OVERDUE first 🔴\n4. Then DUE TODAY 🟠\n5. Then upcoming deadlines 🟡\n\n✅ WHEN HANDLING COMPLAINT:\n1. Click In Progress first (shows you are working)\n2. Investigate the actual issue\n3. Fix it properly\n4. Write detailed resolution message\n5. Click Resolve with good description\n\n📋 GOOD RESOLUTION MESSAGE:\n- What was done specifically\n- When it was fixed\n- Any follow-up needed\n\n🏆 HIGH PERFORMANCE TIPS:\n- Resolve within due date always\n- Write clear resolution messages\n- Handle overdue immediately\n- Keep workload under 5 active complaints\n\n📊 Admin monitors your resolution rate!\nMatty helps you stay on track 🤖"
+    },
+    {
+      "id": 172,
+      "keywords": ["best practice admin", "admin tips", "how to be good admin", "admin advice", "admin guide"],
+      "question": "Best practices for admin?",
+      "answer": "Tips for admin to manage ComplaintHub effectively:\n\n🛡 DAILY ROUTINE:\n1. Check Admin Dashboard every morning\n2. Ask Matty: 'any overdue complaints'\n3. Assign all unassigned complaints\n4. Check staff workload balance\n\n⚡ SMART ASSIGNMENT:\n1. Click Assign button on pending complaints\n2. Ask Matty: 'who should I assign [complaint] to'\n3. Matty suggests based on:\n   - Lowest workload\n   - Best resolution rate\n   - Matching department\n4. Assign accordingly\n\n📊 WEEKLY REVIEW:\n- Ask Matty: 'staff performance summary'\n- Check resolution rates\n- Reward high performers\n- Support struggling staff\n\n🔴 OVERDUE ACTION:\n- Matty alerts you automatically\n- Reassign if staff not responding\n- Escalate if systemic issue\n\n💡 BEST ADMIN METRICS:\n- 0 overdue complaints = perfect!\n- 90%+ resolution rate = excellent\n- All complaints assigned within 24 hours"
+    },
+    {
+      "id": 173,
+      "keywords": ["best practice student", "student tips", "fast resolution", "student advice", "student guide"],
+      "question": "Best practices for students submitting complaints?",
+      "answer": "Tips for students to get fastest resolution:\n\n📋 BEFORE SUBMITTING:\n1. Check if similar complaint already submitted\n2. Gather details: dates, locations, impact\n3. Choose correct category\n4. Set honest priority\n\n✍️ WRITING GOOD COMPLAINT:\n✅ Clear specific title\n✅ Correct category\n✅ Honest priority (not everything URGENT)\n✅ Detailed description with:\n   - Exact location (Block B, Room 205)\n   - When it started\n   - How many affected\n   - What you already tried\n\n⏰ AFTER SUBMITTING:\n1. Note your complaint ID\n2. Check My Complaints daily\n3. Ask Matty for status updates\n4. Wait for due date before following up\n\n🚀 SPEED BOOSTERS:\n- Correct category = right staff assigned\n- Detailed description = less back and forth\n- Realistic priority = better queue position\n- One issue per complaint = faster processing\n\n🔴 Save URGENT for real emergencies only!"
+    },
+    {
+      "id": 174,
+      "keywords": ["complaint statistics", "analytics", "complaint data", "trends", "complaint analysis"],
+      "question": "What complaint statistics are available?",
+      "answer": "Complaint statistics in ComplaintHub:\n\n🎓 STUDENT sees:\n- Their own complaint counts\n- Pending, In Progress, Resolved breakdown\n- Individual complaint due dates\n\n🛡 ADMIN sees:\n- Total complaints across all students\n- Status breakdown (pending/progress/resolved)\n- Total registered users\n- Staff assignment counts\n- Overdue complaint count\n- Staff performance metrics:\n  • Resolution rate per staff\n  • Workload per staff\n  • Overdue per staff\n\n💼 STAFF sees:\n- Their assigned complaint stats\n- Personal resolution count\n- Overdue in their queue\n\n🤖 MATTY can tell you:\n- Real-time counts from database\n- Overdue analysis\n- Staff performance comparison\n- Best staff for assignment\n\nAsk Matty anything about your stats! 📊"
+    },
+    {
+      "id": 175,
+      "keywords": ["workflow", "process flow", "complaint journey", "end to end", "complete process"],
+      "question": "What is the complete complaint workflow?",
+      "answer": "Complete ComplaintHub workflow:\n\n📋 STEP 1 - STUDENT SUBMITS:\n→ Goes to /submit page\n→ Fills form with all details\n→ Clicks Submit Complaint\n→ Status: PENDING 🟡\n→ Due date auto-calculated\n→ Complaint ID assigned (#CH12363)\n\n📋 STEP 2 - ADMIN REVIEWS:\n→ Sees complaint in /admin table\n→ Reviews category and priority\n→ Asks Matty for staff suggestion\n→ Clicks Assign → selects staff\n→ Status: IN PROGRESS 🔵\n\n📋 STEP 3 - STAFF ACTS:\n→ Sees complaint in /staff dashboard\n→ Matty shows priority order\n→ Clicks In Progress to start\n→ Investigates and fixes issue\n→ Clicks Resolve + writes resolution\n→ Status: RESOLVED 🟢\n\n📋 STEP 4 - STUDENT SEES:\n→ Checks My Complaints page\n→ Status shows RESOLVED green badge\n→ Resolution message visible\n→ Who fixed it and when shown\n\n✅ Complete cycle: Submit → Assign → Resolve → Done!\n⏰ Total time: 24 hours to 14 days by priority"
+    },
+    {
+      "id": 176,
+      "keywords": ["gemini", "gemini ai", "google ai", "ai model used"],
+      "question": "Which AI model powers Matty?",
+      "answer": "Matty is powered by:\n\n🤖 Google Gemini AI\nModel: gemini-2.0-flash-lite\n\nWhy Gemini:\n✅ Completely FREE (no credit card needed)\n✅ Fast response times\n✅ Good language understanding\n✅ Can read and reason about data\n✅ Available via Google AI Studio API\n✅ No usage charges on free tier\n\n📊 How Matty uses Gemini:\n1. Student asks complex question\n2. Matty fetches real DB data for their role\n3. Sends data + question to Gemini\n4. Gemini generates personalized answer\n5. Answer returned to chat\n\n⚡ Hybrid system:\n- Simple questions → offline instant (no Gemini)\n- Data questions → Gemini (personalized)\n- Gemini fails → offline fallback\n\n🆓 Get your free API key:\naistudio.google.com"
+    },
+    {
+      "id": 177,
+      "keywords": ["offline mode", "works offline", "no internet", "airplane mode", "without internet"],
+      "question": "Does Matty work without internet?",
+      "answer": "Matty has hybrid offline capability:\n\n📡 OFFLINE MODE (works without internet):\n✅ 130+ pre-programmed answers\n✅ All general complaint guidance\n✅ Category explanations\n✅ Priority level information\n✅ System usage help\n✅ Local commands (hi, help, bye)\n\n🌐 NEEDS INTERNET:\n❌ Your specific complaint status queries\n❌ Staff performance data\n❌ Overdue complaint alerts\n❌ Smart assignment suggestions\n❌ Personalized data-based answers\n\n⚡ How offline works:\n1. Message comes in\n2. Checks 130+ offline Q&A first\n3. Keyword match found → answers instantly\n4. No internet needed for offline answers!\n\n💡 For general questions:\nMatty always works, even with slow internet!\n\n🤖 Offline = instant + free + always available!"
+    },
+    {
+      "id": 178,
+      "keywords": ["quick buttons", "shortcut buttons", "matty buttons", "chat buttons"],
+      "question": "What are the quick action buttons in Matty?",
+      "answer": "Matty shows quick action buttons below welcome message!\n\n🎓 STUDENT buttons:\n📋 My Complaints → 'show me my complaints'\n📊 Check Status → 'what is status of my complaints'\n❓ How to Submit → 'how do I submit a complaint'\n\n💼 STAFF buttons:\n⚡ Today's Tasks → 'what should I focus on today'\n🔴 Overdue → 'do I have any overdue complaints'\n✅ My Resolved → 'how many complaints have I resolved'\n\n🛡 ADMIN buttons:\n⚠️ Overdue Alert → 'show me all overdue complaints'\n👥 Staff Performance → 'give me staff performance summary'\n📊 Summary → 'give me dashboard summary'\n\n💡 How to use:\n1. Open Matty chat widget\n2. See welcome message\n3. Click any button below it\n4. Matty sends that question automatically\n5. Get instant answer!\n\nButtons save typing! ⚡"
+    },
+    {
+      "id": 179,
+      "keywords": ["matty color", "chat color", "header color", "blue green purple", "matty theme"],
+      "question": "Why does Matty look different for each role?",
+      "answer": "Matty adapts its appearance to your role!\n\n🎨 COLOR THEMES:\n🔵 BLUE header = Student login\n   Friendly, approachable style\n   Focus on complaint tracking help\n\n🟢 GREEN header = Staff login  \n   Professional, task-focused style\n   Focus on workload and deadlines\n\n🟣 PURPLE header = Admin login\n   Authoritative, analytics style\n   Focus on oversight and management\n\nWhy different colors?\n✅ Instantly shows which role you logged in as\n✅ Consistent with dashboard theme colors\n✅ Helps avoid role confusion\n✅ Different welcome messages per role\n✅ Different quick action buttons per role\n\n👤 Student = Blue 🔵\n💼 Staff = Green 🟢\n🛡 Admin = Purple 🟣\n\nEven Matty knows who you are! 🤖"
+    },
+    {
+      "id": 180,
+      "keywords": ["future features", "coming soon", "planned features", "roadmap", "what is next"],
+      "question": "What features are planned for ComplaintHub?",
+      "answer": "ComplaintHub future roadmap:\n\n🔮 PLANNED FEATURES:\n\n📧 Email Notifications:\n- Auto email when complaint assigned\n- Email when status changes\n- Resolution confirmation email\n\n📱 Mobile App:\n- Dedicated Android and iOS apps\n- Push notifications\n- Photo attachment support\n\n📎 File Attachments:\n- Upload photos with complaint\n- Document attachment\n- Evidence gallery\n\n⭐ Rating System:\n- Rate resolution quality\n- Staff performance ratings\n- Satisfaction survey\n\n📊 Advanced Analytics:\n- Complaint trend charts\n- Category breakdown graphs\n- Resolution time analytics\n- Admin reporting dashboard\n\n🌐 Multi-language:\n- Hindi, Tamil, Telugu support\n- Regional language complaints\n\n🔔 Push Notifications:\n- Real-time browser notifications\n- Bell icon in navbar\n\n💡 Your suggestions shape the roadmap!\nSubmit feature requests under 'Other' category!"
+    },
+    {
+      "id": 181,
+      "keywords": ["staff register", "add staff", "create staff account", "new staff", "staff signup"],
+      "question": "How to add new staff to the system?",
+      "answer": "To add new staff member:\n\n💼 Staff registers themselves:\n1. Go to Sign Up page\n2. Select STAFF role card\n3. Enter Full Name, Email, Password\n4. Click Create Account\n5. Staff can login immediately at /staff\n\n🛡 Admin can verify new staff:\n- Check staff list in Assign modal\n- New staff appears automatically\n- No manual admin approval needed currently\n\n📋 Staff profile setup after signup:\n1. Go to Profile page\n2. Add Department (IT, Maintenance, etc)\n3. Add Office Location\n4. Add Phone number\n5. Save changes\n\n💡 IMPORTANT: Staff must add Department!\nMatty uses department for smart assignment\nWithout department → Matty cannot suggest properly\n\n🤖 Staff appears in admin assign dropdown\nafter completing profile setup!"
+    },
+    {
+      "id": 182,
+      "keywords": ["delete complaint", "admin delete", "remove complaint", "who can delete"],
+      "question": "Who can delete complaints?",
+      "answer": "Complaint deletion permissions:\n\n🛡 ADMIN:\n✅ Can delete any complaint\n✅ Red trash icon in Actions column\n✅ Deletion is permanent\n✅ Cannot be undone\n\n💼 STAFF:\n❌ Cannot delete complaints\n❌ No delete button in staff dashboard\n❌ Can only update status\n\n🎓 STUDENT:\n❌ Cannot delete their own complaints\n❌ For record-keeping purposes\n\n📋 When admin should delete:\n- Test complaints\n- Duplicate submissions\n- Spam or invalid complaints\n- Complaints submitted by mistake\n\n⚠️ Think before deleting!\nDeletion removes complete history\nConsider closing instead of deleting\nfor valid complaints that are resolved\n\n📊 Deleted complaints reduce total count\nImpacts statistics accuracy!"
+    },
+    {
+      "id": 183,
+      "keywords": ["auto priority", "smart priority", "ai priority", "recommended priority"],
+      "question": "Does system suggest priority automatically?",
+      "answer": "About automatic priority suggestion:\n\n🤖 CURRENT SYSTEM:\n- Student manually selects priority\n- No automatic priority detection yet\n\n💡 MATTY can help suggest priority!\nTell Matty your issue and ask:\n'What priority should I set for my WiFi complaint?'\n\nMatty will suggest based on:\n- Type of issue\n- How many affected\n- Health/safety risk\n- Academic impact\n\n📋 MANUAL PRIORITY GUIDE:\n🔴 URGENT: Safety, medical, no water/power\n🟠 HIGH: WiFi down, serious food issue\n🟡 MEDIUM: Slow internet, minor repairs\n🟢 LOW: Suggestions, minor requests\n\n🔮 FUTURE FEATURE:\nAI auto-suggest priority based on\ndescription keywords is planned!\n\nFor now ask Matty for priority advice! 😊"
+    },
+    {
+      "id": 184,
+      "keywords": ["night complaint", "late night", "after hours", "midnight", "emergency at night"],
+      "question": "What to do for emergency complaint at night?",
+      "answer": "For night time emergencies:\n\n🌙 FIRST: Handle the immediate emergency!\nDo NOT wait to submit complaint first!\n\n🚨 IMMEDIATE ACTIONS:\n- Fire → evacuate + call security\n- Medical → call warden immediately\n- No water → contact duty warden\n- Safety threat → call security guard\n\n📋 THEN submit in ComplaintHub:\n1. Open ComplaintHub on mobile\n2. Submit complaint with URGENT priority\n3. Mention: 'NIGHT EMERGENCY - [date] [time]'\n4. System records for accountability\n\n⏰ URGENT response times:\n- System flags it immediately\n- Matty alerts admin at next login\n- Admin reviews first thing morning\n\n💡 Keep these handy:\n- Warden phone number saved in contacts\n- Security desk number on hostel notice board\n- ComplaintHub on mobile for quick access\n\n🔴 Complaint system supports\nbut does not replace emergency response!"
+    },
+    {
+      "id": 185,
+      "keywords": ["congratulations", "done", "completed", "finished", "achieved", "success"],
+      "question": "Celebrating completion or success?",
+      "answer": "🎉 Congratulations!\n\nWhether you:\n✅ Successfully submitted a complaint\n✅ Got your issue resolved\n✅ Completed your profile setup\n✅ Learned how the system works\n✅ Finished your SEPM project\n\nComplaintHub was built to make\ncollege life a little easier for students! 🎓\n\n📊 Every complaint you submit:\n- Creates accountability\n- Improves college facilities\n- Helps future students\n- Makes your voice heard!\n\n🤖 Matty is always here to help:\n- 130+ instant answers\n- Real-time data queries\n- 24/7 availability\n\nKeep using ComplaintHub and\nmake your college experience better! 🚀\n\nThank you for being part of ComplaintHub! 💙"
+    }
+  ]
+}

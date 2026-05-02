@@ -1,0 +1,15 @@
+# Backend secrets - NEVER upload these
+backend/.env
+backend/node_modules/
+backend/generate_excel.js
+backend/run_tests.js
+backend/test_results.json
+
+# Frontend build files
+frontend/node_modules/
+frontend/dist/
+
+# System files
+.DS_Store
+Thumbs.db
+*.log
