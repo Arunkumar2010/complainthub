@@ -1,45 +1,50 @@
-# ComplaintHub - Online Complaint Management System
+# ComplaintHub 🎓
 
-A full-stack, premium web application for managing customer complaints with role-based access and real-time tracking.
-
-## Technologies
-- **Frontend**: React (Vite), Tailwind CSS, Lucide React, Axios, React Router.
-- **Backend**: Node.js, Express, MongoDB (Mongoose), JWT Auth.
-- **Design**: DM Sans font, premium glassmorphism effects, responsive layout.
+An Online Complaint Management System for college students built as a SEPM project.
 
 ## Features
-- **Role-Based Auth**: Separate dashboards for Users and Admins.
-- **User Dashboard**: Overview of complaint status cards and quick navigation.
-- **Complaint Submission**: Multi-field form with priority and category selection.
-- **My Complaints**: Searchable and filterable portal to track individual submissions.
-- **Admin Dashboard**: Centralized management of all system complaints with status update actions.
-- **Help Center**: Integrated FAQ and contact support channels.
+- 3-role system: Student, Staff, Admin
+- Complete complaint workflow
+- Matty AI chatbot (Google Gemini)
+- JWT authentication
+- Due date auto-calculation  
+- Smart staff assignment suggestions
+- Real-time statistics
+
+## Tech Stack
+- Frontend: React + Vite + Tailwind CSS
+- Backend: Node.js + Express
+- Database: MongoDB
+- AI: Google Gemini API
+
+## Roles
+- Student: Submit and track complaints
+- Staff: Handle assigned complaints
+- Admin: Full system control
 
 ## Setup Instructions
 
-### Prerequisites
-- Node.js (v14+)
-- MongoDB (running locally on `mongodb://127.0.0.1:27017/complainthub`)
-
-### 1. Backend Setup
-```bash
+### Backend
 cd backend
 npm install
-npm start
-```
-*Note: The backend will auto-seed demo data on first run.*
+Create .env file with:
+  MONGO_URI=your_mongodb_uri
+  JWT_SECRET=your_secret_key
+  GEMINI_API_KEY=your_gemini_key
+npm run dev
 
-### 2. Frontend Setup
-```bash
+### Frontend
 cd frontend
 npm install
 npm run dev
-```
 
 ## Demo Credentials
-- **Admin**: `admin@example.com` / `admin123`
-- **User**: `user@example.com` / `user123`
+Student: arun@college.edu
+Admin: admin1@gmail.com
 
-## Directory Structure
-- `backend/`: API routes, models, middleware, and server logic.
-- `frontend/`: React components, pages, context, and styling.
+## Project Structure
+sepm_project/
+  backend/    - Node.js + Express API
+  frontend/   - React + Vite app
+
+Built with love for SEPM academic project 2026

@@ -1,16 +1,50 @@
-# React + Vite
+# ComplaintHub 🎓
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An Online Complaint Management System for college students built as a SEPM project.
 
-Currently, two official plugins are available:
+## Features
+- 3-role system: Student, Staff, Admin
+- Complete complaint workflow
+- Matty AI chatbot (Google Gemini)
+- JWT authentication
+- Due date auto-calculation  
+- Smart staff assignment suggestions
+- Real-time statistics
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Tech Stack
+- Frontend: React + Vite + Tailwind CSS
+- Backend: Node.js + Express
+- Database: MongoDB
+- AI: Google Gemini API
 
-## React Compiler
+## Roles
+- Student: Submit and track complaints
+- Staff: Handle assigned complaints
+- Admin: Full system control
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Setup Instructions
 
-## Expanding the ESLint configuration
+### Backend
+cd backend
+npm install
+Create .env file with:
+  MONGO_URI=your_mongodb_uri
+  JWT_SECRET=your_secret_key
+  GEMINI_API_KEY=your_gemini_key
+npm run dev
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Frontend
+cd frontend
+npm install
+npm run dev
+
+## Demo Credentials
+Student: arun@college.edu
+Admin: admin1@gmail.com
+
+## Project Structure
+sepm_project/
+  backend/    - Node.js + Express API
+  frontend/   - React + Vite app
+
+Built with love for SEPM academic project 2026
